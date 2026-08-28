@@ -145,9 +145,24 @@
 [1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/core/text/_text_sdl2.cpython-314-x86_64-linux-gnu.so
 [1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/core/image/_img_sdl2.cpython-314-x86_64-linux-gnu.so
 [1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/core/clipboard/_clipboard_sdl2.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/chardet/_kernel.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/chardet/models/__init__.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/chardet/pipeline/validity.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/chardet/pipeline/postprocess.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/chardet/pipeline/ascii.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/chardet/pipeline/statistical.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/chardet/pipeline/magic.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/chardet/pipeline/utf8.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/chardet/pipeline/escape.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/chardet/pipeline/language.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/chardet/pipeline/structural.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/chardet/pipeline/utf1632.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/chardet/pipeline/confusion.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/chardet/pipeline/orchestrator.cpython-314-x86_64-linux-gnu.so
 [1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/android/_android_sound.cpython-314-x86_64-linux-gnu.so
 [1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/android/_android.cpython-314-x86_64-linux-gnu.so
 [1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/android/_android_billing.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/7cf47097c39cf1afcee8__mypyc.cpython-314-x86_64-linux-gnu.so
 [1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/jnius/jnius.cpython-314-x86_64-linux-gnu.so
 [1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/_metrics.cpython-314-x86_64-linux-gnu.so
 [1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/_event.cpython-314-x86_64-linux-gnu.so
@@ -187,24 +202,9 @@
 [1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/core/text/_text_sdl2.cpython-314-x86_64-linux-gnu.so
 [1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/core/image/_img_sdl2.cpython-314-x86_64-linux-gnu.so
 [1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/core/clipboard/_clipboard_sdl2.cpython-314-x86_64-linux-gnu.so
-[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/chardet/_kernel.cpython-314-x86_64-linux-gnu.so
-[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/chardet/models/__init__.cpython-314-x86_64-linux-gnu.so
-[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/chardet/pipeline/validity.cpython-314-x86_64-linux-gnu.so
-[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/chardet/pipeline/postprocess.cpython-314-x86_64-linux-gnu.so
-[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/chardet/pipeline/ascii.cpython-314-x86_64-linux-gnu.so
-[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/chardet/pipeline/statistical.cpython-314-x86_64-linux-gnu.so
-[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/chardet/pipeline/magic.cpython-314-x86_64-linux-gnu.so
-[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/chardet/pipeline/utf8.cpython-314-x86_64-linux-gnu.so
-[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/chardet/pipeline/escape.cpython-314-x86_64-linux-gnu.so
-[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/chardet/pipeline/language.cpython-314-x86_64-linux-gnu.so
-[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/chardet/pipeline/structural.cpython-314-x86_64-linux-gnu.so
-[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/chardet/pipeline/utf1632.cpython-314-x86_64-linux-gnu.so
-[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/chardet/pipeline/confusion.cpython-314-x86_64-linux-gnu.so
-[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/chardet/pipeline/orchestrator.cpython-314-x86_64-linux-gnu.so
 [1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/android/_android_sound.cpython-314-x86_64-linux-gnu.so
 [1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/android/_android.cpython-314-x86_64-linux-gnu.so
 [1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/android/_android_billing.cpython-314-x86_64-linux-gnu.so
-[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/7cf47097c39cf1afcee8__mypyc.cpython-314-x86_64-linux-gnu.so
 [1m[90m[DEBUG][39m[0m:   	./bootstrap_builds/sdl2/obj/local/arm64-v8a/libSDL2_ttf.so
 [1m[90m[DEBUG][39m[0m:   	./bootstrap_builds/sdl2/obj/local/arm64-v8a/libmain.so
 [1m[90m[DEBUG][39m[0m:   	./bootstrap_builds/sdl2/obj/local/arm64-v8a/libSDL2.so
@@ -239,9 +239,9 @@ stty: 'standard input': Inappropriate ioctl for device
 [1m[90m[DEBUG][39m[0m:   [90m->[0m running find . -iname *.so -exec /home/runner/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-strip --strip-unneeded {} ;[0m
 [1m[INFO][0m:    [36m<- directory context /home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build[39m
 [1m[INFO][0m:    [36m<- directory context /home/runner/work/telema-android/telema-android/.buildozer/android/platform/python-for-android[39m
-[1m[INFO][0m:    *** PYTHON PACKAGE / PROJECT INSTALL STAGE FOR ARCH: arm64-v8a ***
+[1m[INFO][0m:    *** PYTHON PACKAGE / PROJECT INSTALL STAGE FOR ARCH: armeabi-v7a ***
 stty: 'standard input': Inappropriate ioctl for device
-[1m[90m[DEBUG][39m[0m:   [90m->[0m running pip3 install certifi chardet charset_normalizer filetype idna requests six urllib3 --dry-run --break-system-packages --ignore-installed --disable-pip-version-check --only-binary=:all: --report /tmp/tmp9o1l815e -q --platform=android_24_arm64_v8a --platform=android_24_aarch64 --python-version 3.14.2[0m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running pip3 install certifi chardet charset_normalizer filetype idna requests six urllib3 --dry-run --break-system-packages --ignore-installed --disable-pip-version-check --only-binary=:all: --report /tmp/tmpq_ys9ibf -q --platform=android_24_arm --python-version 3.14.2[0m
 [1m[INFO][0m:    Extra resolved pure python dependencies :
 [1m[INFO][0m:     
 [1m[INFO][0m:     
@@ -271,7 +271,7 @@ stty: 'standard input': Inappropriate ioctl for device
 [1m[90m[DEBUG][39m[0m:   	    ...<4 lines>...
 [1m[90m[DEBUG][39m[0m:   	    )
 [1m[90m[DEBUG][39m[0m:   	[1;35mImportError[0m: [35mcannot import name 'BuildDependencyInstallError' from 'pip._internal.exceptions' (/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv/lib/python3.14/site-packages/pip/_internal/exceptions.py)[0m
-Exception in thread background thread for pid 98674:
+Exception in thread background thread for pid 98551:
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
     self.run()
@@ -374,11 +374,11 @@ Traceback (most recent call last):
 #     JAVA_HOME_11_X64 = '/usr/lib/jvm/temurin-11-jdk-amd64'
 #     JAVA_HOME_25_X64 = '/usr/lib/jvm/temurin-25-jdk-amd64'
 #     PKG_CONFIG_PATH = '/opt/hostedtoolcache/Python/3.11.16/x64/lib/pkgconfig'
-#     GITHUB_PATH = '/home/runner/work/_temp/_runner_file_commands/add_path_b2429f46-fdfc-471b-ba63-df9fca2475a0'
+#     GITHUB_PATH = '/home/runner/work/_temp/_runner_file_commands/add_path_f414ed65-733c-45a5-a76a-344dba994ed2'
 #     GITHUB_ACTION = 'build_step'
 #     JAVA_HOME = '/usr/lib/jvm/temurin-11-jdk-amd64'
-#     GITHUB_RUN_NUMBER = '6'
-#     RUNNER_NAME = 'GitHub Actions 1000000005'
+#     GITHUB_RUN_NUMBER = '7'
+#     RUNNER_NAME = 'GitHub Actions 1000000006'
 #     GRADLE_HOME = '/usr/share/gradle-9.7.1'
 #     GITHUB_REPOSITORY_OWNER_ID = '321885471'
 #     ACTIONS_RUNNER_ACTION_ARCHIVE_CACHE = '/opt/actionarchivecache'
@@ -397,13 +397,13 @@ Traceback (most recent call last):
 #     PWD = '/home/runner/work/telema-android/telema-android'
 #     PIPX_BIN_DIR = '/opt/pipx_bin'
 #     LOGNAME = 'runner'
-#     GITHUB_ARTIFACTS_LIST = '/home/runner/work/_temp/_runner_file_commands/artifacts_list_b2429f46-fdfc-471b-ba63-df9fca2475a0'
+#     GITHUB_ARTIFACTS_LIST = '/home/runner/work/_temp/_runner_file_commands/artifacts_list_f414ed65-733c-45a5-a76a-344dba994ed2'
 #     GITHUB_REPOSITORY_ID = '1348829583'
 #     GITHUB_ACTIONS = 'true'
 #     USE_BAZEL_FALLBACK_VERSION = 'silent:'
 #     ANDROID_NDK_LATEST_HOME = '/usr/local/lib/android/sdk/ndk/29.0.14206865'
-#     SYSTEMD_EXEC_PID = '1563'
-#     GITHUB_SHA = 'f2d30512dd30b0c3410f071a9ed13df020a3a794'
+#     SYSTEMD_EXEC_PID = '1412'
+#     GITHUB_SHA = '60e28afab414febb5ca7addd6b88723b08918427'
 #     GITHUB_WORKFLOW_REF = 'balongatullia/telema-android/.github/workflows/build-apk.yml@refs/heads/main'
 #     POWERSHELL_DISTRIBUTION_CHANNEL = 'GitHub-Actions-Linux'
 #     RUNNER_ENVIRONMENT = 'github-hosted'
@@ -415,20 +415,20 @@ Traceback (most recent call last):
 #     GITHUB_API_URL = 'https://api.github.com'
 #     LANG = 'C.UTF-8'
 #     GOROOT_1_25_X64 = '/opt/hostedtoolcache/go/1.25.14/x64'
-#     RUNNER_TRACKING_ID = 'github_b85c4989-12f9-4efc-805a-f8884b9c22d3'
+#     RUNNER_TRACKING_ID = 'github_eecc3c71-5f60-4b0e-ba5c-0c20bb06ecc0'
 #     RUNNER_ARCH = 'X64'
 #     RUNNER_TEMP = '/home/runner/work/_temp'
-#     GITHUB_STATE = '/home/runner/work/_temp/_runner_file_commands/save_state_b2429f46-fdfc-471b-ba63-df9fca2475a0'
+#     GITHUB_STATE = '/home/runner/work/_temp/_runner_file_commands/save_state_f414ed65-733c-45a5-a76a-344dba994ed2'
 #     EDGEWEBDRIVER = '/usr/local/share/edge_driver'
 #     JAVA_HOME_21_X64 = '/usr/lib/jvm/temurin-21-jdk-amd64'
-#     GITHUB_ENV = '/home/runner/work/_temp/_runner_file_commands/set_env_b2429f46-fdfc-471b-ba63-df9fca2475a0'
+#     GITHUB_ENV = '/home/runner/work/_temp/_runner_file_commands/set_env_f414ed65-733c-45a5-a76a-344dba994ed2'
 #     GITHUB_EVENT_PATH = '/home/runner/work/_temp/_github_workflow/event.json'
-#     INVOCATION_ID = '2e79e369eb0042c5be1325e06f3bf96f'
+#     INVOCATION_ID = '85b9bd6fc4ea48239a864232fed8d395'
 #     GITHUB_EVENT_NAME = 'push'
-#     GITHUB_RUN_ID = '33213980197'
+#     GITHUB_RUN_ID = '33215512033'
 #     JAVA_HOME_17_X64 = '/usr/lib/jvm/temurin-17-jdk-amd64'
 #     ANDROID_NDK_HOME = '/usr/local/lib/android/sdk/ndk/27.3.13750724'
-#     GITHUB_STEP_SUMMARY = '/home/runner/work/_temp/_runner_file_commands/step_summary_b2429f46-fdfc-471b-ba63-df9fca2475a0'
+#     GITHUB_STEP_SUMMARY = '/home/runner/work/_temp/_runner_file_commands/step_summary_f414ed65-733c-45a5-a76a-344dba994ed2'
 #     HOMEBREW_NO_AUTO_UPDATE = '1'
 #     GITHUB_ACTOR = 'balongatullia'
 #     NVM_DIR = '/home/runner/.nvm'
@@ -447,13 +447,13 @@ Traceback (most recent call last):
 #     ANDROID_SDK_ROOT = '/usr/local/lib/android/sdk'
 #     VCPKG_INSTALLATION_ROOT = '/usr/local/share/vcpkg'
 #     GITHUB_ACTOR_ID = '321885471'
-#     ACTIONS_ORCHESTRATION_ID = '54b91da9-36fb-4c27-8a29-99c82b14c579.build.__default'
+#     ACTIONS_ORCHESTRATION_ID = '823d6d7b-655c-452e-a77e-f77de182d612.build.__default'
 #     RUNNER_TOOL_CACHE = '/opt/hostedtoolcache'
 #     ImageVersion = '20260824.273.3'
 #     Python3_ROOT_DIR = '/opt/hostedtoolcache/Python/3.11.16/x64'
 #     DOTNET_NOLOGO = '1'
-#     GITHUB_ARTIFACTS = '/home/runner/work/_temp/_runner_file_commands/artifacts_b2429f46-fdfc-471b-ba63-df9fca2475a0'
-#     GITHUB_WORKFLOW_SHA = 'f2d30512dd30b0c3410f071a9ed13df020a3a794'
+#     GITHUB_ARTIFACTS = '/home/runner/work/_temp/_runner_file_commands/artifacts_f414ed65-733c-45a5-a76a-344dba994ed2'
+#     GITHUB_WORKFLOW_SHA = '60e28afab414febb5ca7addd6b88723b08918427'
 #     GOROOT_1_24_X64 = '/opt/hostedtoolcache/go/1.24.13/x64'
 #     GITHUB_REF_NAME = 'main'
 #     GITHUB_JOB = 'build'
@@ -463,10 +463,10 @@ Traceback (most recent call last):
 #     GOROOT_1_26_X64 = '/opt/hostedtoolcache/go/1.26.7/x64'
 #     GITHUB_REPOSITORY = 'balongatullia/telema-android'
 #     Python2_ROOT_DIR = '/opt/hostedtoolcache/Python/3.11.16/x64'
-#     CHROME_BIN = '/usr/bin/google-chrome'
 #     ANDROID_NDK_ROOT = '/usr/local/lib/android/sdk/ndk/27.3.13750724'
+#     CHROME_BIN = '/usr/bin/google-chrome'
 #     GITHUB_RETENTION_DAYS = '90'
-#     JOURNAL_STREAM = '8:7811'
+#     JOURNAL_STREAM = '8:9580'
 #     RUNNER_WORKSPACE = '/home/runner/work/telema-android'
 #     LEIN_HOME = '/usr/local/lib/lein'
 #     LEIN_JAR = '/usr/local/lib/lein/self-installs/leiningen-2.12.0-standalone.jar'
@@ -484,7 +484,7 @@ Traceback (most recent call last):
 #     ENABLE_RUNNER_TRACING = 'true'
 #     GITHUB_WORKFLOW = 'Build APK Android - Telema'
 #     DEBIAN_FRONTEND = 'noninteractive'
-#     GITHUB_OUTPUT = '/home/runner/work/_temp/_runner_file_commands/set_output_b2429f46-fdfc-471b-ba63-df9fca2475a0'
+#     GITHUB_OUTPUT = '/home/runner/work/_temp/_runner_file_commands/set_output_f414ed65-733c-45a5-a76a-344dba994ed2'
 #     AGENT_TOOLSDIRECTORY = '/opt/hostedtoolcache'
 #     _ = '/opt/hostedtoolcache/Python/3.11.16/x64/bin/buildozer'
 #     PACKAGES_PATH = '/home/runner/.buildozer/android/packages'
