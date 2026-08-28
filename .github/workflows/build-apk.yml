@@ -22,6 +22,12 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Forcer 'python' a utiliser la version 3.11 partout
+        run: |
+          sudo ln -sf "$(which python3.11)" /usr/bin/python
+          sudo ln -sf "$(which python3.11)" /usr/local/bin/python
+          python --version
+
       - name: Installer les dependances systeme necessaires a Buildozer
         run: |
           sudo apt-get update
