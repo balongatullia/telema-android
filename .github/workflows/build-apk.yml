@@ -7,6 +7,9 @@ on:
     branches: [ main, master ]
   workflow_dispatch: {}
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-22.04
@@ -32,8 +35,25 @@ jobs:
           pip install buildozer cython==0.29.36
 
       - name: Compiler l'APK (telechargement automatique du SDK/NDK Android)
+        id: build_step
+        continue-on-error: true
         run: |
-          yes | buildozer android debug
+          set -o pipefail
+          yes | buildozer android debug 2>&1 | tee /tmp/build_output.log
+
+      - name: Sauver le journal d'erreur dans le depot (si echec)
+        if: steps.build_step.outcome == 'failure'
+        run: |
+          tail -n 500 /tmp/build_output.log > build_error_log.txt
+          git config user.email "bot@telema.local"
+          git config user.name "Telema Build Bot"
+          git add build_error_log.txt
+          git commit -m "Journal d'erreur de compilation [skip ci]" || true
+          git push
+
+      - name: Marquer l'etape comme echouee si besoin
+        if: steps.build_step.outcome == 'failure'
+        run: exit 1
 
       - name: Publier l'APK genere
         uses: actions/upload-artifact@v4
