@@ -1,359 +1,359 @@
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/cpython/pystate.h:220:1: note: '_PyThreadState_UncheckedGet' has been explicitly marked deprecated here
-Py_DEPRECATED(3.14) static inline PyThreadState*
-^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/pyport.h:281:54: note: expanded from macro 'Py_DEPRECATED'
-#define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
-                                                     ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/core/text/text_layout.c:17858:5: warning: '_PyThreadState_UncheckedGet' is deprecated [-Wdeprecated-declarations]
-    __Pyx_PyThreadState_assign
-    ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/core/text/text_layout.c:1548:52: note: expanded from macro '__Pyx_PyThreadState_assign'
-#define __Pyx_PyThreadState_assign  __pyx_tstate = __Pyx_PyThreadState_Current;
-                                                   ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/core/text/text_layout.c:742:39: note: expanded from macro '__Pyx_PyThreadState_Current'
-  #define __Pyx_PyThreadState_Current _PyThreadState_UncheckedGet()
-                                      ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/cpython/pystate.h:220:1: note: '_PyThreadState_UncheckedGet' has been explicitly marked deprecated here
-Py_DEPRECATED(3.14) static inline PyThreadState*
-^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/pyport.h:281:54: note: expanded from macro 'Py_DEPRECATED'
-#define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
-                                                     ^
-13 warnings and 2 errors generated.
-Compiling /home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/tesselator.pyx because it changed.
-[1/1] Cythonizing /home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/tesselator.pyx
- warning: kivy/graphics/common.pxi:5:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/graphics/common.pxi:6:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
-[INFO   ] building 'kivy.graphics.cgl_backend.cgl_debug' extension
-[INFO   ] /home/runner/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -target armv7a-linux-androideabi24 -fomit-frame-pointer -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mthumb -fPIC -target armv7a-linux-androideabi24 -fomit-frame-pointer -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mthumb -fPIC -I/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14 -DANDROID -I/home/runner/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14 -fPIC -I/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/include -I/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/include -I/tmp/build-env-mu7z9_3x/include -I/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/root/usr/local/include/python3.14 -c /home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/cgl_backend/cgl_debug.c -o build/temp.linux-x86_64-cpython-314/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/cgl_backend/cgl_debug.o
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/cgl_backend/cgl_debug.c:1191:59: warning: 'Py_UNICODE' is deprecated [-Wdeprecated-declarations]
-static CYTHON_INLINE size_t __Pyx_Py_UNICODE_strlen(const Py_UNICODE *u)
-                                                          ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/cpython/unicodeobject.h:10:1: note: 'Py_UNICODE' has been explicitly marked deprecated here
-Py_DEPRECATED(3.13) typedef wchar_t Py_UNICODE;
-^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/pyport.h:281:54: note: expanded from macro 'Py_DEPRECATED'
-#define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
-                                                     ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/cgl_backend/cgl_debug.c:1193:11: warning: 'Py_UNICODE' is deprecated [-Wdeprecated-declarations]
-    const Py_UNICODE *u_end = u;
-          ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/cpython/unicodeobject.h:10:1: note: 'Py_UNICODE' has been explicitly marked deprecated here
-Py_DEPRECATED(3.13) typedef wchar_t Py_UNICODE;
-^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/pyport.h:281:54: note: expanded from macro 'Py_DEPRECATED'
-#define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
-                                                     ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/cgl_backend/cgl_debug.c:35440:5: warning: '_PyThreadState_UncheckedGet' is deprecated [-Wdeprecated-declarations]
-    __Pyx_PyThreadState_assign
-    ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/cgl_backend/cgl_debug.c:2809:52: note: expanded from macro '__Pyx_PyThreadState_assign'
-#define __Pyx_PyThreadState_assign  __pyx_tstate = __Pyx_PyThreadState_Current;
-                                                   ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/cgl_backend/cgl_debug.c:746:39: note: expanded from macro '__Pyx_PyThreadState_Current'
-  #define __Pyx_PyThreadState_Current _PyThreadState_UncheckedGet()
-                                      ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/cpython/pystate.h:220:1: note: '_PyThreadState_UncheckedGet' has been explicitly marked deprecated here
-Py_DEPRECATED(3.14) static inline PyThreadState*
-^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/pyport.h:281:54: note: expanded from macro 'Py_DEPRECATED'
-#define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
-                                                     ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/cgl_backend/cgl_debug.c:36074:13: warning: implicit declaration of function '_PyUnicode_FastCopyCharacters' is invalid in C99 [-Wimplicit-function-declaration]
-            _PyUnicode_FastCopyCharacters(result_uval, char_pos, uval, 0, ulength);
-            ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/cgl_backend/cgl_debug.c:37498:29: warning: '_PyThreadState_UncheckedGet' is deprecated [-Wdeprecated-declarations]
-    PyThreadState *tstate = __Pyx_PyThreadState_Current;
-                            ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/cgl_backend/cgl_debug.c:746:39: note: expanded from macro '__Pyx_PyThreadState_Current'
-  #define __Pyx_PyThreadState_Current _PyThreadState_UncheckedGet()
-                                      ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/cpython/pystate.h:220:1: note: '_PyThreadState_UncheckedGet' has been explicitly marked deprecated here
-Py_DEPRECATED(3.14) static inline PyThreadState*
-^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/pyport.h:281:54: note: expanded from macro 'Py_DEPRECATED'
-#define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
-                                                     ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/cgl_backend/cgl_debug.c:38126:67: error: too few arguments to function call, expected 6, have 5
-                                           is_little, !is_unsigned);
-                                                                  ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/cpython/longobject.h:84:17: note: '_PyLong_AsByteArray' declared here
-PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
-                ^
-Compiling /home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/core/window/window_info.pyx because it changed.
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/cgl_backend/cgl_debug.c:38399:67: error: too few arguments to function call, expected 6, have 5
-                                           is_little, !is_unsigned);
-                                                                  ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/cpython/longobject.h:84:17: note: '_PyLong_AsByteArray' declared here
-PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
-                ^
-5 warnings and 2 errors generated.
-[1/1] Cythonizing /home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/core/window/window_info.pyx
- warning: kivy/core/window/../../include/config.pxi:2:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:3:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:4:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:5:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:6:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:7:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:8:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:9:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:10:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:11:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:12:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:13:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:14:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:15:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:16:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:17:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:18:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:19:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:20:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/window_attrs.pxi:3:0: The 'IF' statement is deprecated and will be removed in a future Cython version. Consider using runtime conditions or C macros instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/window_attrs.pxi:14:0: The 'IF' statement is deprecated and will be removed in a future Cython version. Consider using runtime conditions or C macros instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/window_attrs.pxi:24:0: The 'IF' statement is deprecated and will be removed in a future Cython version. Consider using runtime conditions or C macros instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/window_info.pxd:5:0: The 'IF' statement is deprecated and will be removed in a future Cython version. Consider using runtime conditions or C macros instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/window_info.pxd:11:0: The 'IF' statement is deprecated and will be removed in a future Cython version. Consider using runtime conditions or C macros instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/window_info.pxd:16:0: The 'IF' statement is deprecated and will be removed in a future Cython version. Consider using runtime conditions or C macros instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:2:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:3:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:4:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:5:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:6:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:7:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:8:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:9:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:10:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:11:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:12:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:13:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:14:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:15:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:16:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:17:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:18:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:19:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/../../include/config.pxi:20:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/window_info.pyx:3:0: The 'IF' statement is deprecated and will be removed in a future Cython version. Consider using runtime conditions or C macros instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/window_info.pyx:18:0: The 'IF' statement is deprecated and will be removed in a future Cython version. Consider using runtime conditions or C macros instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/core/window/window_info.pyx:28:0: The 'IF' statement is deprecated and will be removed in a future Cython version. Consider using runtime conditions or C macros instead. See https://github.com/cython/cython/issues/4310
-[INFO   ] building 'kivy.core.window.window_info' extension
-[INFO   ] /home/runner/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -target armv7a-linux-androideabi24 -fomit-frame-pointer -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mthumb -fPIC -target armv7a-linux-androideabi24 -fomit-frame-pointer -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mthumb -fPIC -I/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14 -DANDROID -I/home/runner/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14 -fPIC -I/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/include -I/tmp/build-env-mu7z9_3x/include -I/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/root/usr/local/include/python3.14 -c /home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/core/window/window_info.c -o build/temp.linux-x86_64-cpython-314/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/core/window/window_info.o
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/core/window/window_info.c:1185:59: warning: 'Py_UNICODE' is deprecated [-Wdeprecated-declarations]
-static CYTHON_INLINE size_t __Pyx_Py_UNICODE_strlen(const Py_UNICODE *u)
-                                                          ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/cpython/unicodeobject.h:10:1: note: 'Py_UNICODE' has been explicitly marked deprecated here
-Py_DEPRECATED(3.13) typedef wchar_t Py_UNICODE;
-^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/pyport.h:281:54: note: expanded from macro 'Py_DEPRECATED'
-#define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
-                                                     ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/core/window/window_info.c:1187:11: warning: 'Py_UNICODE' is deprecated [-Wdeprecated-declarations]
-    const Py_UNICODE *u_end = u;
-          ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/cpython/unicodeobject.h:10:1: note: 'Py_UNICODE' has been explicitly marked deprecated here
-Py_DEPRECATED(3.13) typedef wchar_t Py_UNICODE;
-^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/pyport.h:281:54: note: expanded from macro 'Py_DEPRECATED'
-#define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
-                                                     ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/core/window/window_info.c:2400:5: warning: '_PyThreadState_UncheckedGet' is deprecated [-Wdeprecated-declarations]
-    __Pyx_PyThreadState_assign
-    ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/core/window/window_info.c:1488:52: note: expanded from macro '__Pyx_PyThreadState_assign'
-#define __Pyx_PyThreadState_assign  __pyx_tstate = __Pyx_PyThreadState_Current;
-                                                   ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/core/window/window_info.c:743:39: note: expanded from macro '__Pyx_PyThreadState_Current'
-  #define __Pyx_PyThreadState_Current _PyThreadState_UncheckedGet()
-                                      ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/cpython/pystate.h:220:1: note: '_PyThreadState_UncheckedGet' has been explicitly marked deprecated here
-Py_DEPRECATED(3.14) static inline PyThreadState*
-^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/pyport.h:281:54: note: expanded from macro 'Py_DEPRECATED'
-#define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
-                                                     ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/core/window/window_info.c:2627:29: warning: '_PyThreadState_UncheckedGet' is deprecated [-Wdeprecated-declarations]
-    PyThreadState *tstate = __Pyx_PyThreadState_Current;
-                            ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/core/window/window_info.c:743:39: note: expanded from macro '__Pyx_PyThreadState_Current'
-  #define __Pyx_PyThreadState_Current _PyThreadState_UncheckedGet()
-                                      ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/cpython/pystate.h:220:1: note: '_PyThreadState_UncheckedGet' has been explicitly marked deprecated here
-Py_DEPRECATED(3.14) static inline PyThreadState*
-^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/pyport.h:281:54: note: expanded from macro 'Py_DEPRECATED'
-#define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
-                                                     ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/core/window/window_info.c:2913:67: error: too few arguments to function call, expected 6, have 5
-                                           is_little, !is_unsigned);
-                                                                  ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/cpython/longobject.h:84:17: note: '_PyLong_AsByteArray' declared here
-PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
-                ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/core/window/window_info.c:3186:67: error: too few arguments to function call, expected 6, have 5
-                                           is_little, !is_unsigned);
-                                                                  ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/cpython/longobject.h:84:17: note: '_PyLong_AsByteArray' declared here
-PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
-                ^
-4 warnings and 2 errors generated.
-[INFO   ] building 'kivy.graphics.vertex_instructions' extension
-[INFO   ] /home/runner/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -target armv7a-linux-androideabi24 -fomit-frame-pointer -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mthumb -fPIC -target armv7a-linux-androideabi24 -fomit-frame-pointer -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mthumb -fPIC -I/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14 -DANDROID -I/home/runner/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14 -fPIC -I/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/include -I/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/include -I/tmp/build-env-mu7z9_3x/include -I/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/root/usr/local/include/python3.14 -c /home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/vertex_instructions.c -o build/temp.linux-x86_64-cpython-314/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/vertex_instructions.o
-[INFO   ] building 'kivy.graphics.tesselator' extension
-[INFO   ] /home/runner/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -target armv7a-linux-androideabi24 -fomit-frame-pointer -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mthumb -fPIC -target armv7a-linux-androideabi24 -fomit-frame-pointer -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mthumb -fPIC -I/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14 -DANDROID -I/home/runner/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14 -fPIC -I/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/include -Ikivy/lib/libtess2/Include -I/tmp/build-env-mu7z9_3x/include -I/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/root/usr/local/include/python3.14 -c /home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/tesselator.c -o build/temp.linux-x86_64-cpython-314/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/tesselator.o
-Compiling /home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/boxshadow.pyx because it changed.
-[1/1] Cythonizing /home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/boxshadow.pyx
- warning: kivy/graphics/common.pxi:5:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/graphics/common.pxi:6:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/graphics/../include/config.pxi:2:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/graphics/../include/config.pxi:3:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/graphics/../include/config.pxi:4:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/graphics/../include/config.pxi:5:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/graphics/../include/config.pxi:6:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/graphics/../include/config.pxi:7:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/graphics/../include/config.pxi:8:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/graphics/../include/config.pxi:9:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/graphics/../include/config.pxi:10:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/graphics/../include/config.pxi:11:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/graphics/../include/config.pxi:12:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/graphics/../include/config.pxi:13:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/graphics/../include/config.pxi:14:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/graphics/../include/config.pxi:15:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/graphics/../include/config.pxi:16:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/graphics/../include/config.pxi:17:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/graphics/../include/config.pxi:18:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/graphics/../include/config.pxi:19:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
- warning: kivy/graphics/../include/config.pxi:20:0: The 'DEF' statement is deprecated and will be removed in a future Cython version. Consider using global variables, constants, and in-place literals instead. See https://github.com/cython/cython/issues/4310
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/tesselator.c:1211:59: warning: 'Py_UNICODE' is deprecated [-Wdeprecated-declarations]
-static CYTHON_INLINE size_t __Pyx_Py_UNICODE_strlen(const Py_UNICODE *u)
-                                                          ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/cpython/unicodeobject.h:10:1: note: 'Py_UNICODE' has been explicitly marked deprecated here
-Py_DEPRECATED(3.13) typedef wchar_t Py_UNICODE;
-^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/pyport.h:281:54: note: expanded from macro 'Py_DEPRECATED'
-#define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
-                                                     ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/tesselator.c:1213:11: warning: 'Py_UNICODE' is deprecated [-Wdeprecated-declarations]
-    const Py_UNICODE *u_end = u;
-          ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/cpython/unicodeobject.h:10:1: note: 'Py_UNICODE' has been explicitly marked deprecated here
-Py_DEPRECATED(3.13) typedef wchar_t Py_UNICODE;
-^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/pyport.h:281:54: note: expanded from macro 'Py_DEPRECATED'
-#define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
-                                                     ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/tesselator.c:2137:39: warning: implicit declaration of function '_PyInterpreterState_GetConfig' is invalid in C99 [-Wimplicit-function-declaration]
-    __pyx_assertions_enabled_flag = ! _PyInterpreterState_GetConfig(__Pyx_PyThreadState_Current->interp)->optimization_level;
-                                      ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/tesselator.c:2137:69: warning: '_PyThreadState_UncheckedGet' is deprecated [-Wdeprecated-declarations]
-    __pyx_assertions_enabled_flag = ! _PyInterpreterState_GetConfig(__Pyx_PyThreadState_Current->interp)->optimization_level;
-                                                                    ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/tesselator.c:753:39: note: expanded from macro '__Pyx_PyThreadState_Current'
-  #define __Pyx_PyThreadState_Current _PyThreadState_UncheckedGet()
-                                      ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/cpython/pystate.h:220:1: note: '_PyThreadState_UncheckedGet' has been explicitly marked deprecated here
-Py_DEPRECATED(3.14) static inline PyThreadState*
-^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/pyport.h:281:54: note: expanded from macro 'Py_DEPRECATED'
-#define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
-                                                     ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/tesselator.c:2137:107: error: member reference type 'int' is not a pointer
-    __pyx_assertions_enabled_flag = ! _PyInterpreterState_GetConfig(__Pyx_PyThreadState_Current->interp)->optimization_level;
-                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/tesselator.c:2538:9: warning: 'Py_UNICODE' is deprecated [-Wdeprecated-declarations]
-        Py_UNICODE *as_pyunicodes;
-        ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/cpython/unicodeobject.h:10:1: note: 'Py_UNICODE' has been explicitly marked deprecated here
-Py_DEPRECATED(3.13) typedef wchar_t Py_UNICODE;
-^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/pyport.h:281:54: note: expanded from macro 'Py_DEPRECATED'
-#define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
-                                                     ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/vertex_instructions.c:1220:59: warning: 'Py_UNICODE' is deprecated [-Wdeprecated-declarations]
-static CYTHON_INLINE size_t __Pyx_Py_UNICODE_strlen(const Py_UNICODE *u)
-                                                          ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/cpython/unicodeobject.h:10:1: note: 'Py_UNICODE' has been explicitly marked deprecated here
-Py_DEPRECATED(3.13) typedef wchar_t Py_UNICODE;
-^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/pyport.h:281:54: note: expanded from macro 'Py_DEPRECATED'
-#define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
-                                                     ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/vertex_instructions.c:1222:11: warning: 'Py_UNICODE' is deprecated [-Wdeprecated-declarations]
-    const Py_UNICODE *u_end = u;
-          ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/cpython/unicodeobject.h:10:1: note: 'Py_UNICODE' has been explicitly marked deprecated here
-Py_DEPRECATED(3.13) typedef wchar_t Py_UNICODE;
-^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/pyport.h:281:54: note: expanded from macro 'Py_DEPRECATED'
-#define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
-                                                     ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/tesselator.c:5960:28: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
-  if (((__pyx_v_c_mode[0]) == 'f')) {
-       ~~~~~~~~~~~~~~~~~~~~^~~~~~
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/tesselator.c:5960:28: note: remove extraneous parentheses around the comparison to silence this warning
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/vertex_instructions.c:5581:39: warning: implicit declaration of function '_PyInterpreterState_GetConfig' is invalid in C99 [-Wimplicit-function-declaration]
-  if (((__pyx_v_c_mode[0]) == 'f')) {
-      ~                    ^     ~
-    __pyx_assertions_enabled_flag = ! _PyInterpreterState_GetConfig(__Pyx_PyThreadState_Current->interp)->optimization_level;
-                                      ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/vertex_instructions.c:5581:69: warning: '_PyThreadState_UncheckedGet' is deprecated [-Wdeprecated-declarations]
-    __pyx_assertions_enabled_flag = ! _PyInterpreterState_GetConfig(__Pyx_PyThreadState_Current->interp)->optimization_level;
-                                                                    ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/vertex_instructions.c:762:39/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/tesselator.c: note: expanded from macro '__Pyx_PyThreadState_Current':
-5960:28: note: use '=' to turn this equality comparison into an assignment  #define __Pyx_PyThreadState_Current _PyThreadState_UncheckedGet()
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_uix_slider.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_uix_stacklayout.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_uix_textinput.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_uix_translate_coordinates.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_uix_videoplayer.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_uix_widget.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_utils.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_vector.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_video.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_weakmethod.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_widget.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_widget_walk.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_window_base.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_window_info.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/testkv.kv'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/unicode_files.zip'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/unicode_font.zip'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/visual_test_label.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/data/test.ini'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/pyinstaller/test_pyinstaller.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/pyinstaller/simple_widget/main.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/pyinstaller/simple_widget/main.spec'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/pyinstaller/simple_widget/project/__init__.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/pyinstaller/simple_widget/project/widget.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/pyinstaller/video_widget/main.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/pyinstaller/video_widget/main.spec'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/pyinstaller/video_widget/project/__init__.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_issues/test_6315.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_issues/test_issue_1084.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_issues/test_issue_1091.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_issues/test_issue_599.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_issues/test_issue_609.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_issues/test_issue_6909.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_issues/test_issue_883.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_urlrequest/test_urlrequest_requests.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_urlrequest/test_urlrequest_urllib.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/__init__.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/benchmark.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/changelog_parser.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/coverage.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/gallery.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/generate-icons.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/kviewer.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/report.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/stub-gl-debug.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/texturecompress.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/gles_compat/gl2.h'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/gles_compat/subset_gles.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/highlight/__init__.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/highlight/kivy-mode.el'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/highlight/kivy.json-tmlanguage'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/highlight/kivy.tmLanguage'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/highlight/kivy.vim'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/image-testsuite/README.md'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/image-testsuite/gimp28-testsuite.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/image-testsuite/imagemagick-testsuite.sh'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/packaging/__init__.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/packaging/cython_cfg.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/packaging/factory.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/packaging/pyinstaller_hooks/__init__.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/packaging/pyinstaller_hooks/__main__.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/packaging/pyinstaller_hooks/hook-kivy.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/packaging/pyinstaller_hooks/pyi_rth_kivy.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/pep8checker/pep8.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/pep8checker/pep8kivy.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/pep8checker/pre-commit.githook'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/precommit_hooks/pre-commit-config.yaml'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/action_bar.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/action_group.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/action_group_disabled.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/action_group_down.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/action_item.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/action_item_down.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/action_view.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/audio-volume-high.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/audio-volume-low.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/audio-volume-medium.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/audio-volume-muted.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/bubble.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/bubble_arrow.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/bubble_btn.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/bubble_btn_pressed.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/button.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/button_disabled.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/button_disabled_pressed.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/button_pressed.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/checkbox_disabled_off.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/checkbox_disabled_on.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/checkbox_off.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/checkbox_on.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/checkbox_radio_disabled_off.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/checkbox_radio_disabled_on.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/checkbox_radio_off.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/checkbox_radio_on.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/close.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/filechooser_file.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/filechooser_folder.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/filechooser_selected.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/image-missing.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/media-playback-pause.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/media-playback-start.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/media-playback-stop.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/modalview-background.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/overflow.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/player-background.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/player-play-overlay.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/previous_normal.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/progressbar.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/progressbar_background.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/ring.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/selector_left.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/selector_middle.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/selector_right.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/separator.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/slider_cursor.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/slider_cursor_disabled.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/sliderh_background.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/sliderh_background_disabled.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/sliderv_background.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/sliderv_background_disabled.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/spinner.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/spinner_disabled.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/spinner_pressed.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/splitter.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/splitter_disabled.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/splitter_disabled_down.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/splitter_disabled_down_h.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/splitter_disabled_h.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/splitter_down.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/splitter_down_h.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/splitter_grip.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/splitter_grip_h.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/splitter_h.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/switch-background.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/switch-background_disabled.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/switch-button.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/switch-button_disabled.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/tab.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/tab_btn.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/tab_btn_disabled.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/tab_btn_disabled_pressed.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/tab_btn_pressed.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/tab_disabled.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/textinput.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/textinput_active.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/textinput_disabled.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/textinput_disabled_active.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/tree_closed.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/tree_opened.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/vkeyboard_background.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/vkeyboard_disabled_background.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/vkeyboard_disabled_key_down.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/vkeyboard_disabled_key_normal.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/vkeyboard_key_down.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/vkeyboard_key_normal.png'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/__init__.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/accordion.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/actionbar.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/anchorlayout.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/boxlayout.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/bubble.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/button.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/camera.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/carousel.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/checkbox.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/codeinput.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/colorpicker.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/dropdown.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/effectwidget.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/filechooser.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/floatlayout.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/gesturesurface.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/gridlayout.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/image.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/label.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/layout.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/modalview.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/pagelayout.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/popup.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/progressbar.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/recycleboxlayout.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/recyclegridlayout.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/recyclelayout.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/relativelayout.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/rst.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/sandbox.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/scatter.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/scatterlayout.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/screenmanager.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/scrollview.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/settings.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/slider.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/spinner.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/splitter.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/stacklayout.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/stencilview.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/switch.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/tabbedpanel.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/textinput.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/togglebutton.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/treeview.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/video.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/videoplayer.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/vkeyboard.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/widget.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/behaviors/__init__.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/behaviors/button.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/behaviors/codenavigation.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/behaviors/compoundselection.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/behaviors/cover.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/behaviors/drag.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/behaviors/emacs.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/behaviors/focus.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/behaviors/knspace.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/behaviors/togglebutton.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/behaviors/touchripple.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/recycleview/__init__.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/recycleview/datamodel.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/recycleview/layout.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/recycleview/views.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'Kivy-2.3.1.dist-info/AUTHORS'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'Kivy-2.3.1.dist-info/LICENSE'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'Kivy-2.3.1.dist-info/METADATA'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'Kivy-2.3.1.dist-info/WHEEL'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'Kivy-2.3.1.dist-info/dependency_links.txt'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'Kivy-2.3.1.dist-info/top_level.txt'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'Kivy-2.3.1.dist-info/RECORD'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] removing build/bdist.linux-x86_64/wheel
+[1m[90m[DEBUG][39m[0m:   	[1m[92mSuccessfully built [4mKivy-2.3.1-cp314-cp314-android_24_arm.whl[0m[1m[92m[0m
+[1m[INFO][0m:    [36m<- directory context /home/runner/work/telema-android/telema-android/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    Installing built wheel: Kivy-2.3.1-cp314-cp314-android_24_arm.whl
+[1m[INFO][0m:    [1m[32m# Biglinking object files[0m[39m
+[1m[31m[WARNING][39m[0m: Context's python recipe found, skipping biglink (will this work?)
+[1m[INFO][0m:    [1m[32m# Postbuilding recipes[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding hostpython3 for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding libffi for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding openssl for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding sdl2_image for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding sdl2_mixer for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding sdl2_ttf for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding sqlite3 for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding python3 for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding sdl2 for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding pyjnius for armeabi-v7a[0m[39m
+[1m[INFO][0m:    Copying pyjnius java class to classes build dir
+[1m[INFO][0m:    [36m-> directory context /home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/pyjnius-sdl2/armeabi-v7a__ndk_target_24/pyjnius[39m
+stty: 'standard input': Inappropriate ioctl for device
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running cp -a jnius/src/org /home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/javaclasses/telemagestion[0m
+[1m[INFO][0m:    [36m<- directory context /home/runner/work/telema-android/telema-android/.buildozer/android/platform/python-for-android[39m
+[1m[INFO][0m:    [1m[32mPostbuilding setuptools for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding android for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32mPostbuilding kivy for armeabi-v7a[0m[39m
+[1m[INFO][0m:    [1m[32m# Installing pure Python modules[0m[39m
+[1m[INFO][0m:    *** PYTHON PACKAGE / PROJECT INSTALL STAGE FOR ARCH: arm64-v8a ***
+stty: 'standard input': Inappropriate ioctl for device
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running pip3 install certifi chardet filetype idna requests six urllib3 --dry-run --break-system-packages --ignore-installed --disable-pip-version-check --only-binary=:all: --report /tmp/tmpvvygvgfz -q --platform=android_24_arm64_v8a --platform=android_24_aarch64 --python-version 3.14.2[0m
+[1m[INFO][0m:    Extra resolved pure python dependencies :
+[1m[INFO][0m:     
+[1m[INFO][0m:      [32mcharset-normalizer[37m : [1m3.5.1[0m
+[1m[INFO][0m:     
+[1m[INFO][0m:    The requirements (certifi, chardet, filetype, idna, requests, six, urllib3, https://files.pythonhosted.org/packages/29/cd/2b812ce5e888f1ce69a5350281e58aab07ae64a958ecae8912f30865718e/charset_normalizer-3.5.1-cp314-cp314-android_24_arm64_v8a.whl) don't have recipes, attempting to install them with pip
+[1m[INFO][0m:    If this fails, it may mean that the module has compiled components and needs a recipe.
+[1m[INFO][0m:    [36m-> directory context /home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build[39m
+stty: 'standard input': Inappropriate ioctl for device
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running python -m venv venv[0m
+[1m[INFO][0m:    Upgrade pip to latest version
+stty: 'standard input': Inappropriate ioctl for device
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running bash -c source venv/bin/activate && pip install -U pip[0m
+[1m[90m[DEBUG][39m[0m:   	Requirement already satisfied: pip in ./venv/lib/python3.14/site-packages (25.3)
+[1m[90m[DEBUG][39m[0m:   	Collecting pip
+[1m[90m[DEBUG][39m[0m:   	  Downloading pip-26.2.1-py3-none-any.whl.metadata (4.6 kB)
+[1m[90m[DEBUG][39m[0m:   	Downloading pip-26.2.1-py3-none-any.whl (1.8 MB)
+[1m[90m[DEBUG][39m[0m:   	[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/1.8 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.8/1.8 MB[0m [31m29.3 MB/s[0m  [33m0:00:00[0m
+[1m[90m[DEBUG][39m[0m:   	[?25hInstalling collected packages: pip
+[1m[90m[DEBUG][39m[0m:   	  Attempting uninstall: pip
+[1m[90m[DEBUG][39m[0m:   	    Found existing installation: pip 25.3
+[1m[90m[DEBUG][39m[0m:   	    Uninstalling pip-25.3:
+[1m[90m[DEBUG][39m[0m:   	      Successfully uninstalled pip-25.3
+[1m[90m[DEBUG][39m[0m:   	Successfully installed pip-26.2.1
+[1m[INFO][0m:    Install Cython in case one of the modules needs it to build
+stty: 'standard input': Inappropriate ioctl for device
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running bash -c venv/bin/pip install Cython[0m
+[1m[90m[DEBUG][39m[0m:   	Collecting Cython
+[1m[90m[DEBUG][39m[0m:   	  Downloading cython-3.3.0-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (28 kB)
+[1m[90m[DEBUG][39m[0m:   	Downloading cython-3.3.0-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (3.5 MB)
+[1m[90m[DEBUG][39m[0m:   	[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/3.5 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.5/3.5 MB[0m [31m99.9 MB/s[0m  [33m0:00:00[0m
+[1m[90m[DEBUG][39m[0m:   	[?25hInstalling collected packages: Cython
+[1m[90m[DEBUG][39m[0m:   	Successfully installed Cython-3.3.0
+[1m[90m[DEBUG][39m[0m:   Create directory /home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/recipe/arm64-v8a__ndk_target_24/objects_recipe
+[1m[INFO][0m:    Creating a requirements.txt file for the Python modules
+[1m[INFO][0m:    Installing Python modules with pip
+[1m[INFO][0m:    IF THIS FAILS, THE MODULES MAY NEED A RECIPE. A reason for this is often modules compiling native code that is unaware of Android cross-compilation and does not work without additional changes / workarounds.
+stty: 'standard input': Inappropriate ioctl for device
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running bash -c venv/bin/pip install -v --target '/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/telemagestion/arm64-v8a' --no-deps -r requirements.txt[0m
+[1m[90m[DEBUG][39m[0m:   	Using pip 26.2.1 from /home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv/lib/python3.14/site-packages/pip (python 3.14)
+[1m[90m[DEBUG][39m[0m:   	[31mERROR: charset_normalizer-3.5.1-cp314-cp314-android_24_arm64_v8a.whl is not a supported wheel on this platform.[0m[31m
+[1m[90m[DEBUG][39m[0m:   	[0m
+Exception in thread background thread for pid 97037:
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/runner/.local/lib/python3.11/site-packages/sh/__init__.py", line 1709, in wrap
+    fn(*rgs, **kwargs)
+  File "/home/runner/.local/lib/python3.11/site-packages/sh/__init__.py", line 2720, in background_thread
+    handle_exit_code(exit_code)
+  File "/home/runner/.local/lib/python3.11/site-packages/sh/__init__.py", line 2411, in fn
+    return self.command.handle_command_exit_code(exit_code)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/.local/lib/python3.11/site-packages/sh/__init__.py", line 820, in handle_command_exit_code
+    raise exc
+sh.ErrorReturnCode_1: 
 
-                                      ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/cpython/pystate.h:  if (((__pyx_v_c_mode[0]) == 'f')) {220
-:                           ^~1
-:                           = 
-note: '_PyThreadState_UncheckedGet' has been explicitly marked deprecated here
-Py_DEPRECATED(3.14) static inline PyThreadState*
-^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/pyport.h:281:54: note: expanded from macro 'Py_DEPRECATED'
-#define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
-                                                     ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/vertex_instructions.c:5581:107: error: member reference type 'int' is not a pointer
-    __pyx_assertions_enabled_flag = ! _PyInterpreterState_GetConfig(__Pyx_PyThreadState_Current->interp)->optimization_level;
-                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/vertex_instructions.c:5862:22: warning: implicit declaration of function '_PyList_Extend' is invalid in C99 [-Wimplicit-function-declaration]
-    PyObject* none = _PyList_Extend((PyListObject*)L, v);
-                     ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/vertex_instructions.c:5862:15: warning: incompatible integer to pointer conversion initializing 'PyObject *' (aka 'struct _object *') with an expression of type 'int' [-Wint-conversion]
-    PyObject* none = _PyList_Extend((PyListObject*)L, v);
-              ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/vertex_instructions.c:6180:9: warning: 'Py_UNICODE' is deprecated [-Wdeprecated-declarations]
-        Py_UNICODE *as_pyunicodes;
-        ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/cpython/unicodeobject.h:10:1: note: 'Py_UNICODE' has been explicitly marked deprecated here
-Py_DEPRECATED(3.13) typedef wchar_t Py_UNICODE;
-^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/pyport.h:281:54: note: expanded from macro 'Py_DEPRECATED'
-#define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
-                                                     ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/tesselator.c:7864:7: warning: '_PyThreadState_UncheckedGet' is deprecated [-Wdeprecated-declarations]
-      __Pyx_PyThreadState_assign
-      ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/tesselator.c:1810:52: note: expanded from macro '__Pyx_PyThreadState_assign'
-#define __Pyx_PyThreadState_assign  __pyx_tstate = __Pyx_PyThreadState_Current;
-                                                   ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/tesselator.c:753:39: note: expanded from macro '__Pyx_PyThreadState_Current'
-  #define __Pyx_PyThreadState_Current _PyThreadState_UncheckedGet()
-                                      ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/cpython/pystate.h:220:1: note: '_PyThreadState_UncheckedGet' has been explicitly marked deprecated here
-Py_DEPRECATED(3.14) static inline PyThreadState*
-^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_24/python3/android-build/android-root/include/python3.14/pyport.h:281:54: note: expanded from macro 'Py_DEPRECATED'
-#define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
-                                                     ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/vertex_instructions.c:10436:5: warning: '_PyThreadState_UncheckedGet' is deprecated [-Wdeprecated-declarations]
-    __Pyx_PyThreadState_assign
-    ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/vertex_instructions.c:5221:52: note: expanded from macro '__Pyx_PyThreadState_assign'
-#define __Pyx_PyThreadState_assign  __pyx_tstate = __Pyx_PyThreadState_Current;
-                                                   ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/kivy/graphics/vertex_instructions.c:762:39: note: expanded from macro '__Pyx_PyThreadState_Current'
-  #define __Pyx_PyThreadState_Current _PyThreadState_UncheckedGet()
-                                      ^
-/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/ot... (286275 more, please see e.stdout)
+  RAN: /usr/bin/bash -c 'venv/bin/pip install -v --target '"'"'/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/telemagestion/arm64-v8a'"'"' --no-deps -r requirements.txt'
+
+  STDOUT:
+Using pip 26.2.1 from /home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv/lib/python3.14/site-packages/pip (python 3.14)
+[31mERROR: charset_normalizer-3.5.1-cp314-cp314-android_24_arm64_v8a.whl is not a supported wheel on this platform.[0m[31m
+[0m
+
+  STDERR:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/runner/work/telema-android/telema-android/.buildozer/android/platform/python-for-android/pythonforandroid/toolchain.py", line 1290, in <module>
+    main()
+  File "/home/runner/work/telema-android/telema-android/.buildozer/android/platform/python-for-android/pythonforandroid/entrypoints.py", line 18, in main
+    ToolchainCL()
+  File "/home/runner/work/telema-android/telema-android/.buildozer/android/platform/python-for-android/pythonforandroid/toolchain.py", line 721, in __init__
+    getattr(self, command)(args)
+  File "/home/runner/work/telema-android/telema-android/.buildozer/android/platform/python-for-android/pythonforandroid/toolchain.py", line 104, in wrapper_func
+    build_dist_from_args(ctx, dist, args)
+  File "/home/runner/work/telema-android/telema-android/.buildozer/android/platform/python-for-android/pythonforandroid/toolchain.py", line 163, in build_dist_from_args
+    build_recipes(build_order, python_modules, ctx,
+  File "/home/runner/work/telema-android/telema-android/.buildozer/android/platform/python-for-android/pythonforandroid/build.py", line 554, in build_recipes
+    run_pymodules_install(
+  File "/home/runner/work/telema-android/telema-android/.buildozer/android/platform/python-for-android/pythonforandroid/build.py", line 927, in run_pymodules_install
+    shprint(sh.bash, '-c', (
+  File "/home/runner/work/telema-android/telema-android/.buildozer/android/platform/python-for-android/pythonforandroid/logger.py", line 174, in shprint
+    for line in output:
+  File "/home/runner/.local/lib/python3.11/site-packages/sh/__init__.py", line 876, in __next__
+    self.wait()
+  File "/home/runner/.local/lib/python3.11/site-packages/sh/__init__.py", line 793, in wait
+    self.handle_command_exit_code(exit_code)
+  File "/home/runner/.local/lib/python3.11/site-packages/sh/__init__.py", line 820, in handle_command_exit_code
+    raise exc
+sh.ErrorReturnCode_1: 
+
+  RAN: /usr/bin/bash -c 'venv/bin/pip install -v --target '"'"'/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/telemagestion/arm64-v8a'"'"' --no-deps -r requirements.txt'
+
+  STDOUT:
+Using pip 26.2.1 from /home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv/lib/python3.14/site-packages/pip (python 3.14)
+[31mERROR: charset_normalizer-3.5.1-cp314-cp314-android_24_arm64_v8a.whl is not a supported wheel on this platform.[0m[31m
+[0m
 
   STDERR:
 
@@ -362,9 +362,9 @@ Py_DEPRECATED(3.14) static inline PyThreadState*
 [0m[1;30m# Cwd /home/runner/work/telema-android/telema-android/.buildozer/android/platform/python-for-android[0m
 [0m[1;34m# Check application requirements[0m
 [0m[1;34m# Compile platform[0m
-[0m[1;30m# Run '/opt/hostedtoolcache/Python/3.11.16/x64/bin/python -m pythonforandroid.toolchain create --dist_name=telemagestion --bootstrap=sdl2 --requirements=python3,kivy==2.3.0,sqlite3 --arch=arm64-v8a --arch=armeabi-v7a --copy-libs --color=always --storage-dir=/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a --ndk-api=24 --ignore-setup-py --debug' ...[0m
+[0m[1;30m# Run '/opt/hostedtoolcache/Python/3.11.16/x64/bin/python -m pythonforandroid.toolchain create --dist_name=telemagestion --bootstrap=sdl2 --requirements=python3,kivy==2.3.1,sqlite3 --arch=arm64-v8a --arch=armeabi-v7a --copy-libs --color=always --storage-dir=/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a --ndk-api=24 --ignore-setup-py --debug' ...[0m
 [0m[1;30m# Cwd /home/runner/work/telema-android/telema-android/.buildozer/android/platform/python-for-android[0m
-[0m[1;31m# Command failed: ('/opt/hostedtoolcache/Python/3.11.16/x64/bin/python', '-m', 'pythonforandroid.toolchain', 'create', '--dist_name=telemagestion', '--bootstrap=sdl2', '--requirements=python3,kivy==2.3.0,sqlite3', '--arch=arm64-v8a', '--arch=armeabi-v7a', '--copy-libs', '--color=always', '--storage-dir=/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a', '--ndk-api=24', '--ignore-setup-py', '--debug')[0m
+[0m[1;31m# Command failed: ('/opt/hostedtoolcache/Python/3.11.16/x64/bin/python', '-m', 'pythonforandroid.toolchain', 'create', '--dist_name=telemagestion', '--bootstrap=sdl2', '--requirements=python3,kivy==2.3.1,sqlite3', '--arch=arm64-v8a', '--arch=armeabi-v7a', '--copy-libs', '--color=always', '--storage-dir=/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a', '--ndk-api=24', '--ignore-setup-py', '--debug')[0m
 [0m[1;31m# Error code: 1[0m
 [0m[1;31m# ENVIRONMENT:[0m
 [0m[1;31m#     SHELL = '/bin/bash'[0m
@@ -374,12 +374,12 @@ Py_DEPRECATED(3.14) static inline PyThreadState*
 [0m[1;31m#     JAVA_HOME_11_X64 = '/usr/lib/jvm/temurin-11-jdk-amd64'[0m
 [0m[1;31m#     JAVA_HOME_25_X64 = '/usr/lib/jvm/temurin-25-jdk-amd64'[0m
 [0m[1;31m#     PKG_CONFIG_PATH = '/opt/hostedtoolcache/Python/3.11.16/x64/lib/pkgconfig'[0m
-[0m[1;31m#     GITHUB_PATH = '/home/runner/work/_temp/_runner_file_commands/add_path_f1abadcb-dbb6-4ac2-884e-374cfc259d02'[0m
+[0m[1;31m#     GITHUB_PATH = '/home/runner/work/_temp/_runner_file_commands/add_path_267fd877-4a9a-4a9e-be0c-865d5069f2c0'[0m
 [0m[1;31m#     GITHUB_ACTION = 'build_step'[0m
 [0m[1;31m#     JAVA_HOME = '/usr/lib/jvm/temurin-11-jdk-amd64'[0m
-[0m[1;31m#     GITHUB_RUN_NUMBER = '2'[0m
-[0m[1;31m#     RUNNER_NAME = 'GitHub Actions 1000000001'[0m
-[0m[1;31m#     GRADLE_HOME = '/usr/share/gradle-9.7.0'[0m
+[0m[1;31m#     GITHUB_RUN_NUMBER = '3'[0m
+[0m[1;31m#     RUNNER_NAME = 'GitHub Actions 1000000002'[0m
+[0m[1;31m#     GRADLE_HOME = '/usr/share/gradle-9.7.1'[0m
 [0m[1;31m#     GITHUB_REPOSITORY_OWNER_ID = '321885471'[0m
 [0m[1;31m#     ACTIONS_RUNNER_ACTION_ARCHIVE_CACHE = '/opt/actionarchivecache'[0m
 [0m[1;31m#     XDG_CONFIG_HOME = '/home/runner/.config'[0m
@@ -397,13 +397,13 @@ Py_DEPRECATED(3.14) static inline PyThreadState*
 [0m[1;31m#     PWD = '/home/runner/work/telema-android/telema-android'[0m
 [0m[1;31m#     PIPX_BIN_DIR = '/opt/pipx_bin'[0m
 [0m[1;31m#     LOGNAME = 'runner'[0m
-[0m[1;31m#     GITHUB_ARTIFACTS_LIST = '/home/runner/work/_temp/_runner_file_commands/artifacts_list_f1abadcb-dbb6-4ac2-884e-374cfc259d02'[0m
+[0m[1;31m#     GITHUB_ARTIFACTS_LIST = '/home/runner/work/_temp/_runner_file_commands/artifacts_list_267fd877-4a9a-4a9e-be0c-865d5069f2c0'[0m
 [0m[1;31m#     GITHUB_REPOSITORY_ID = '1348829583'[0m
 [0m[1;31m#     GITHUB_ACTIONS = 'true'[0m
 [0m[1;31m#     USE_BAZEL_FALLBACK_VERSION = 'silent:'[0m
 [0m[1;31m#     ANDROID_NDK_LATEST_HOME = '/usr/local/lib/android/sdk/ndk/29.0.14206865'[0m
-[0m[1;31m#     SYSTEMD_EXEC_PID = '1706'[0m
-[0m[1;31m#     GITHUB_SHA = '4686207de1a7d1d9ff6e341fdc2b9a49d93a2db8'[0m
+[0m[1;31m#     SYSTEMD_EXEC_PID = '1554'[0m
+[0m[1;31m#     GITHUB_SHA = '8adef686e585f22d5d246872fa67527b456cc70e'[0m
 [0m[1;31m#     GITHUB_WORKFLOW_REF = 'balongatullia/telema-android/.github/workflows/build-apk.yml@refs/heads/main'[0m
 [0m[1;31m#     POWERSHELL_DISTRIBUTION_CHANNEL = 'GitHub-Actions-Linux'[0m
 [0m[1;31m#     RUNNER_ENVIRONMENT = 'github-hosted'[0m
@@ -414,21 +414,21 @@ Py_DEPRECATED(3.14) static inline PyThreadState*
 [0m[1;31m#     HOME = '/home/runner'[0m
 [0m[1;31m#     GITHUB_API_URL = 'https://api.github.com'[0m
 [0m[1;31m#     LANG = 'C.UTF-8'[0m
-[0m[1;31m#     GOROOT_1_25_X64 = '/opt/hostedtoolcache/go/1.25.13/x64'[0m
-[0m[1;31m#     RUNNER_TRACKING_ID = 'github_7dfaeec5-e5d5-40b2-8df8-a9efa43e56f4'[0m
+[0m[1;31m#     GOROOT_1_25_X64 = '/opt/hostedtoolcache/go/1.25.14/x64'[0m
+[0m[1;31m#     RUNNER_TRACKING_ID = 'github_7bc7f15a-d0a4-4551-a26d-d124b57a9df8'[0m
 [0m[1;31m#     RUNNER_ARCH = 'X64'[0m
 [0m[1;31m#     RUNNER_TEMP = '/home/runner/work/_temp'[0m
-[0m[1;31m#     GITHUB_STATE = '/home/runner/work/_temp/_runner_file_commands/save_state_f1abadcb-dbb6-4ac2-884e-374cfc259d02'[0m
+[0m[1;31m#     GITHUB_STATE = '/home/runner/work/_temp/_runner_file_commands/save_state_267fd877-4a9a-4a9e-be0c-865d5069f2c0'[0m
 [0m[1;31m#     EDGEWEBDRIVER = '/usr/local/share/edge_driver'[0m
 [0m[1;31m#     JAVA_HOME_21_X64 = '/usr/lib/jvm/temurin-21-jdk-amd64'[0m
-[0m[1;31m#     GITHUB_ENV = '/home/runner/work/_temp/_runner_file_commands/set_env_f1abadcb-dbb6-4ac2-884e-374cfc259d02'[0m
+[0m[1;31m#     GITHUB_ENV = '/home/runner/work/_temp/_runner_file_commands/set_env_267fd877-4a9a-4a9e-be0c-865d5069f2c0'[0m
 [0m[1;31m#     GITHUB_EVENT_PATH = '/home/runner/work/_temp/_github_workflow/event.json'[0m
-[0m[1;31m#     INVOCATION_ID = 'c946bbf982fb4587b377263e0130e386'[0m
+[0m[1;31m#     INVOCATION_ID = 'cc02c7f955084d40a58ca2915c46f83a'[0m
 [0m[1;31m#     GITHUB_EVENT_NAME = 'push'[0m
-[0m[1;31m#     GITHUB_RUN_ID = '33154023925'[0m
+[0m[1;31m#     GITHUB_RUN_ID = '33155030718'[0m
 [0m[1;31m#     JAVA_HOME_17_X64 = '/usr/lib/jvm/temurin-17-jdk-amd64'[0m
 [0m[1;31m#     ANDROID_NDK_HOME = '/usr/local/lib/android/sdk/ndk/27.3.13750724'[0m
-[0m[1;31m#     GITHUB_STEP_SUMMARY = '/home/runner/work/_temp/_runner_file_commands/step_summary_f1abadcb-dbb6-4ac2-884e-374cfc259d02'[0m
+[0m[1;31m#     GITHUB_STEP_SUMMARY = '/home/runner/work/_temp/_runner_file_commands/step_summary_267fd877-4a9a-4a9e-be0c-865d5069f2c0'[0m
 [0m[1;31m#     HOMEBREW_NO_AUTO_UPDATE = '1'[0m
 [0m[1;31m#     GITHUB_ACTOR = 'balongatullia'[0m
 [0m[1;31m#     NVM_DIR = '/home/runner/.nvm'[0m
@@ -447,26 +447,26 @@ Py_DEPRECATED(3.14) static inline PyThreadState*
 [0m[1;31m#     ANDROID_SDK_ROOT = '/usr/local/lib/android/sdk'[0m
 [0m[1;31m#     VCPKG_INSTALLATION_ROOT = '/usr/local/share/vcpkg'[0m
 [0m[1;31m#     GITHUB_ACTOR_ID = '321885471'[0m
-[0m[1;31m#     ACTIONS_ORCHESTRATION_ID = 'bd53cf40-eabe-497f-b400-44dc747b116b.build.__default'[0m
+[0m[1;31m#     ACTIONS_ORCHESTRATION_ID = '4802d323-f9a0-4bfb-8814-137ad473d909.build.__default'[0m
 [0m[1;31m#     RUNNER_TOOL_CACHE = '/opt/hostedtoolcache'[0m
-[0m[1;31m#     ImageVersion = '20260817.266.1'[0m
+[0m[1;31m#     ImageVersion = '20260824.273.3'[0m
 [0m[1;31m#     Python3_ROOT_DIR = '/opt/hostedtoolcache/Python/3.11.16/x64'[0m
 [0m[1;31m#     DOTNET_NOLOGO = '1'[0m
-[0m[1;31m#     GITHUB_ARTIFACTS = '/home/runner/work/_temp/_runner_file_commands/artifacts_f1abadcb-dbb6-4ac2-884e-374cfc259d02'[0m
-[0m[1;31m#     GITHUB_WORKFLOW_SHA = '4686207de1a7d1d9ff6e341fdc2b9a49d93a2db8'[0m
+[0m[1;31m#     GITHUB_ARTIFACTS = '/home/runner/work/_temp/_runner_file_commands/artifacts_267fd877-4a9a-4a9e-be0c-865d5069f2c0'[0m
+[0m[1;31m#     GITHUB_WORKFLOW_SHA = '8adef686e585f22d5d246872fa67527b456cc70e'[0m
 [0m[1;31m#     GOROOT_1_24_X64 = '/opt/hostedtoolcache/go/1.24.13/x64'[0m
 [0m[1;31m#     GITHUB_REF_NAME = 'main'[0m
 [0m[1;31m#     GITHUB_JOB = 'build'[0m
 [0m[1;31m#     LD_LIBRARY_PATH = '/opt/hostedtoolcache/Python/3.11.16/x64/lib'[0m
 [0m[1;31m#     XDG_RUNTIME_DIR = '/run/user/1001'[0m
 [0m[1;31m#     AZURE_EXTENSION_DIR = '/opt/az/azcliextensions'[0m
-[0m[1;31m#     GOROOT_1_26_X64 = '/opt/hostedtoolcache/go/1.26.6/x64'[0m
+[0m[1;31m#     GOROOT_1_26_X64 = '/opt/hostedtoolcache/go/1.26.7/x64'[0m
 [0m[1;31m#     GITHUB_REPOSITORY = 'balongatullia/telema-android'[0m
 [0m[1;31m#     Python2_ROOT_DIR = '/opt/hostedtoolcache/Python/3.11.16/x64'[0m
 [0m[1;31m#     ANDROID_NDK_ROOT = '/usr/local/lib/android/sdk/ndk/27.3.13750724'[0m
 [0m[1;31m#     CHROME_BIN = '/usr/bin/google-chrome'[0m
 [0m[1;31m#     GITHUB_RETENTION_DAYS = '90'[0m
-[0m[1;31m#     JOURNAL_STREAM = '8:9973'[0m
+[0m[1;31m#     JOURNAL_STREAM = '8:8549'[0m
 [0m[1;31m#     RUNNER_WORKSPACE = '/home/runner/work/telema-android'[0m
 [0m[1;31m#     LEIN_HOME = '/usr/local/lib/lein'[0m
 [0m[1;31m#     LEIN_JAR = '/usr/local/lib/lein/self-installs/leiningen-2.12.0-standalone.jar'[0m
@@ -484,7 +484,7 @@ Py_DEPRECATED(3.14) static inline PyThreadState*
 [0m[1;31m#     ENABLE_RUNNER_TRACING = 'true'[0m
 [0m[1;31m#     GITHUB_WORKFLOW = 'Build APK Android - Telema'[0m
 [0m[1;31m#     DEBIAN_FRONTEND = 'noninteractive'[0m
-[0m[1;31m#     GITHUB_OUTPUT = '/home/runner/work/_temp/_runner_file_commands/set_output_f1abadcb-dbb6-4ac2-884e-374cfc259d02'[0m
+[0m[1;31m#     GITHUB_OUTPUT = '/home/runner/work/_temp/_runner_file_commands/set_output_267fd877-4a9a-4a9e-be0c-865d5069f2c0'[0m
 [0m[1;31m#     AGENT_TOOLSDIRECTORY = '/opt/hostedtoolcache'[0m
 [0m[1;31m#     _ = '/opt/hostedtoolcache/Python/3.11.16/x64/bin/buildozer'[0m
 [0m[1;31m#     PACKAGES_PATH = '/home/runner/.buildozer/android/packages'[0m
