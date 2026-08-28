@@ -253,7 +253,7 @@ stty: 'standard input': Inappropriate ioctl for device
 [1m[INFO][0m:    [1m[32m# Installing pure Python modules[0m[39m
 [1m[INFO][0m:    *** PYTHON PACKAGE / PROJECT INSTALL STAGE FOR ARCH: arm64-v8a ***
 stty: 'standard input': Inappropriate ioctl for device
-[1m[90m[DEBUG][39m[0m:   [90m->[0m running pip3 install certifi chardet filetype idna requests six urllib3 --dry-run --break-system-packages --ignore-installed --disable-pip-version-check --only-binary=:all: --report /tmp/tmpvvygvgfz -q --platform=android_24_arm64_v8a --platform=android_24_aarch64 --python-version 3.14.2[0m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running pip3 install certifi chardet filetype idna requests six urllib3 --dry-run --break-system-packages --ignore-installed --disable-pip-version-check --only-binary=:all: --report /tmp/tmpw2yuav5w -q --platform=android_24_arm64_v8a --platform=android_24_aarch64 --python-version 3.14.2[0m
 [1m[INFO][0m:    Extra resolved pure python dependencies :
 [1m[INFO][0m:     
 [1m[INFO][0m:      [32mcharset-normalizer[37m : [1m3.5.1[0m
@@ -270,7 +270,7 @@ stty: 'standard input': Inappropriate ioctl for device
 [1m[90m[DEBUG][39m[0m:   	Collecting pip
 [1m[90m[DEBUG][39m[0m:   	  Downloading pip-26.2.1-py3-none-any.whl.metadata (4.6 kB)
 [1m[90m[DEBUG][39m[0m:   	Downloading pip-26.2.1-py3-none-any.whl (1.8 MB)
-[1m[90m[DEBUG][39m[0m:   	[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/1.8 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.8/1.8 MB[0m [31m29.3 MB/s[0m  [33m0:00:00[0m
+[1m[90m[DEBUG][39m[0m:   	[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/1.8 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.8/1.8 MB[0m [31m22.9 MB/s[0m  [33m0:00:00[0m
 [1m[90m[DEBUG][39m[0m:   	[?25hInstalling collected packages: pip
 [1m[90m[DEBUG][39m[0m:   	  Attempting uninstall: pip
 [1m[90m[DEBUG][39m[0m:   	    Found existing installation: pip 25.3
@@ -283,7 +283,7 @@ stty: 'standard input': Inappropriate ioctl for device
 [1m[90m[DEBUG][39m[0m:   	Collecting Cython
 [1m[90m[DEBUG][39m[0m:   	  Downloading cython-3.3.0-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (28 kB)
 [1m[90m[DEBUG][39m[0m:   	Downloading cython-3.3.0-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (3.5 MB)
-[1m[90m[DEBUG][39m[0m:   	[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/3.5 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.5/3.5 MB[0m [31m99.9 MB/s[0m  [33m0:00:00[0m
+[1m[90m[DEBUG][39m[0m:   	[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/3.5 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.5/3.5 MB[0m [31m117.8 MB/s[0m  [33m0:00:00[0m
 [1m[90m[DEBUG][39m[0m:   	[?25hInstalling collected packages: Cython
 [1m[90m[DEBUG][39m[0m:   	Successfully installed Cython-3.3.0
 [1m[90m[DEBUG][39m[0m:   Create directory /home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/recipe/arm64-v8a__ndk_target_24/objects_recipe
@@ -295,7 +295,7 @@ stty: 'standard input': Inappropriate ioctl for device
 [1m[90m[DEBUG][39m[0m:   	Using pip 26.2.1 from /home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv/lib/python3.14/site-packages/pip (python 3.14)
 [1m[90m[DEBUG][39m[0m:   	[31mERROR: charset_normalizer-3.5.1-cp314-cp314-android_24_arm64_v8a.whl is not a supported wheel on this platform.[0m[31m
 [1m[90m[DEBUG][39m[0m:   	[0m
-Exception in thread background thread for pid 97037:
+Exception in thread background thread for pid 96947:
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
     self.run()
@@ -362,9 +362,9 @@ Using pip 26.2.1 from /home/runner/work/telema-android/telema-android/.buildozer
 [0m[1;30m# Cwd /home/runner/work/telema-android/telema-android/.buildozer/android/platform/python-for-android[0m
 [0m[1;34m# Check application requirements[0m
 [0m[1;34m# Compile platform[0m
-[0m[1;30m# Run '/opt/hostedtoolcache/Python/3.11.16/x64/bin/python -m pythonforandroid.toolchain create --dist_name=telemagestion --bootstrap=sdl2 --requirements=python3,kivy==2.3.1,sqlite3 --arch=arm64-v8a --arch=armeabi-v7a --copy-libs --color=always --storage-dir=/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a --ndk-api=24 --ignore-setup-py --debug' ...[0m
+[0m[1;30m# Run '/opt/hostedtoolcache/Python/3.11.16/x64/bin/python -m pythonforandroid.toolchain create --dist_name=telemagestion --bootstrap=sdl2 --requirements=python3,kivy==2.3.1 --arch=arm64-v8a --arch=armeabi-v7a --copy-libs --color=always --storage-dir=/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a --ndk-api=24 --ignore-setup-py --debug' ...[0m
 [0m[1;30m# Cwd /home/runner/work/telema-android/telema-android/.buildozer/android/platform/python-for-android[0m
-[0m[1;31m# Command failed: ('/opt/hostedtoolcache/Python/3.11.16/x64/bin/python', '-m', 'pythonforandroid.toolchain', 'create', '--dist_name=telemagestion', '--bootstrap=sdl2', '--requirements=python3,kivy==2.3.1,sqlite3', '--arch=arm64-v8a', '--arch=armeabi-v7a', '--copy-libs', '--color=always', '--storage-dir=/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a', '--ndk-api=24', '--ignore-setup-py', '--debug')[0m
+[0m[1;31m# Command failed: ('/opt/hostedtoolcache/Python/3.11.16/x64/bin/python', '-m', 'pythonforandroid.toolchain', 'create', '--dist_name=telemagestion', '--bootstrap=sdl2', '--requirements=python3,kivy==2.3.1', '--arch=arm64-v8a', '--arch=armeabi-v7a', '--copy-libs', '--color=always', '--storage-dir=/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a', '--ndk-api=24', '--ignore-setup-py', '--debug')[0m
 [0m[1;31m# Error code: 1[0m
 [0m[1;31m# ENVIRONMENT:[0m
 [0m[1;31m#     SHELL = '/bin/bash'[0m
@@ -374,11 +374,11 @@ Using pip 26.2.1 from /home/runner/work/telema-android/telema-android/.buildozer
 [0m[1;31m#     JAVA_HOME_11_X64 = '/usr/lib/jvm/temurin-11-jdk-amd64'[0m
 [0m[1;31m#     JAVA_HOME_25_X64 = '/usr/lib/jvm/temurin-25-jdk-amd64'[0m
 [0m[1;31m#     PKG_CONFIG_PATH = '/opt/hostedtoolcache/Python/3.11.16/x64/lib/pkgconfig'[0m
-[0m[1;31m#     GITHUB_PATH = '/home/runner/work/_temp/_runner_file_commands/add_path_267fd877-4a9a-4a9e-be0c-865d5069f2c0'[0m
+[0m[1;31m#     GITHUB_PATH = '/home/runner/work/_temp/_runner_file_commands/add_path_27bd3db6-94a3-4136-8333-f22d43eea05d'[0m
 [0m[1;31m#     GITHUB_ACTION = 'build_step'[0m
 [0m[1;31m#     JAVA_HOME = '/usr/lib/jvm/temurin-11-jdk-amd64'[0m
-[0m[1;31m#     GITHUB_RUN_NUMBER = '3'[0m
-[0m[1;31m#     RUNNER_NAME = 'GitHub Actions 1000000002'[0m
+[0m[1;31m#     GITHUB_RUN_NUMBER = '4'[0m
+[0m[1;31m#     RUNNER_NAME = 'GitHub Actions 1000000003'[0m
 [0m[1;31m#     GRADLE_HOME = '/usr/share/gradle-9.7.1'[0m
 [0m[1;31m#     GITHUB_REPOSITORY_OWNER_ID = '321885471'[0m
 [0m[1;31m#     ACTIONS_RUNNER_ACTION_ARCHIVE_CACHE = '/opt/actionarchivecache'[0m
@@ -397,13 +397,13 @@ Using pip 26.2.1 from /home/runner/work/telema-android/telema-android/.buildozer
 [0m[1;31m#     PWD = '/home/runner/work/telema-android/telema-android'[0m
 [0m[1;31m#     PIPX_BIN_DIR = '/opt/pipx_bin'[0m
 [0m[1;31m#     LOGNAME = 'runner'[0m
-[0m[1;31m#     GITHUB_ARTIFACTS_LIST = '/home/runner/work/_temp/_runner_file_commands/artifacts_list_267fd877-4a9a-4a9e-be0c-865d5069f2c0'[0m
+[0m[1;31m#     GITHUB_ARTIFACTS_LIST = '/home/runner/work/_temp/_runner_file_commands/artifacts_list_27bd3db6-94a3-4136-8333-f22d43eea05d'[0m
 [0m[1;31m#     GITHUB_REPOSITORY_ID = '1348829583'[0m
 [0m[1;31m#     GITHUB_ACTIONS = 'true'[0m
 [0m[1;31m#     USE_BAZEL_FALLBACK_VERSION = 'silent:'[0m
 [0m[1;31m#     ANDROID_NDK_LATEST_HOME = '/usr/local/lib/android/sdk/ndk/29.0.14206865'[0m
-[0m[1;31m#     SYSTEMD_EXEC_PID = '1554'[0m
-[0m[1;31m#     GITHUB_SHA = '8adef686e585f22d5d246872fa67527b456cc70e'[0m
+[0m[1;31m#     SYSTEMD_EXEC_PID = '1579'[0m
+[0m[1;31m#     GITHUB_SHA = '1bc0adc0658fc1d263282ed3b5608f37ac1657e8'[0m
 [0m[1;31m#     GITHUB_WORKFLOW_REF = 'balongatullia/telema-android/.github/workflows/build-apk.yml@refs/heads/main'[0m
 [0m[1;31m#     POWERSHELL_DISTRIBUTION_CHANNEL = 'GitHub-Actions-Linux'[0m
 [0m[1;31m#     RUNNER_ENVIRONMENT = 'github-hosted'[0m
@@ -415,20 +415,20 @@ Using pip 26.2.1 from /home/runner/work/telema-android/telema-android/.buildozer
 [0m[1;31m#     GITHUB_API_URL = 'https://api.github.com'[0m
 [0m[1;31m#     LANG = 'C.UTF-8'[0m
 [0m[1;31m#     GOROOT_1_25_X64 = '/opt/hostedtoolcache/go/1.25.14/x64'[0m
-[0m[1;31m#     RUNNER_TRACKING_ID = 'github_7bc7f15a-d0a4-4551-a26d-d124b57a9df8'[0m
+[0m[1;31m#     RUNNER_TRACKING_ID = 'github_9c3ae951-5bf9-4366-a300-aece9bebcf5e'[0m
 [0m[1;31m#     RUNNER_ARCH = 'X64'[0m
 [0m[1;31m#     RUNNER_TEMP = '/home/runner/work/_temp'[0m
-[0m[1;31m#     GITHUB_STATE = '/home/runner/work/_temp/_runner_file_commands/save_state_267fd877-4a9a-4a9e-be0c-865d5069f2c0'[0m
+[0m[1;31m#     GITHUB_STATE = '/home/runner/work/_temp/_runner_file_commands/save_state_27bd3db6-94a3-4136-8333-f22d43eea05d'[0m
 [0m[1;31m#     EDGEWEBDRIVER = '/usr/local/share/edge_driver'[0m
 [0m[1;31m#     JAVA_HOME_21_X64 = '/usr/lib/jvm/temurin-21-jdk-amd64'[0m
-[0m[1;31m#     GITHUB_ENV = '/home/runner/work/_temp/_runner_file_commands/set_env_267fd877-4a9a-4a9e-be0c-865d5069f2c0'[0m
+[0m[1;31m#     GITHUB_ENV = '/home/runner/work/_temp/_runner_file_commands/set_env_27bd3db6-94a3-4136-8333-f22d43eea05d'[0m
 [0m[1;31m#     GITHUB_EVENT_PATH = '/home/runner/work/_temp/_github_workflow/event.json'[0m
-[0m[1;31m#     INVOCATION_ID = 'cc02c7f955084d40a58ca2915c46f83a'[0m
+[0m[1;31m#     INVOCATION_ID = '5963b527d35b44679f63550e9aeeabfd'[0m
 [0m[1;31m#     GITHUB_EVENT_NAME = 'push'[0m
-[0m[1;31m#     GITHUB_RUN_ID = '33155030718'[0m
+[0m[1;31m#     GITHUB_RUN_ID = '33175258569'[0m
 [0m[1;31m#     JAVA_HOME_17_X64 = '/usr/lib/jvm/temurin-17-jdk-amd64'[0m
 [0m[1;31m#     ANDROID_NDK_HOME = '/usr/local/lib/android/sdk/ndk/27.3.13750724'[0m
-[0m[1;31m#     GITHUB_STEP_SUMMARY = '/home/runner/work/_temp/_runner_file_commands/step_summary_267fd877-4a9a-4a9e-be0c-865d5069f2c0'[0m
+[0m[1;31m#     GITHUB_STEP_SUMMARY = '/home/runner/work/_temp/_runner_file_commands/step_summary_27bd3db6-94a3-4136-8333-f22d43eea05d'[0m
 [0m[1;31m#     HOMEBREW_NO_AUTO_UPDATE = '1'[0m
 [0m[1;31m#     GITHUB_ACTOR = 'balongatullia'[0m
 [0m[1;31m#     NVM_DIR = '/home/runner/.nvm'[0m
@@ -447,13 +447,13 @@ Using pip 26.2.1 from /home/runner/work/telema-android/telema-android/.buildozer
 [0m[1;31m#     ANDROID_SDK_ROOT = '/usr/local/lib/android/sdk'[0m
 [0m[1;31m#     VCPKG_INSTALLATION_ROOT = '/usr/local/share/vcpkg'[0m
 [0m[1;31m#     GITHUB_ACTOR_ID = '321885471'[0m
-[0m[1;31m#     ACTIONS_ORCHESTRATION_ID = '4802d323-f9a0-4bfb-8814-137ad473d909.build.__default'[0m
+[0m[1;31m#     ACTIONS_ORCHESTRATION_ID = '14a68116-ad02-4ad0-803b-7a68315e0f7e.build.__default'[0m
 [0m[1;31m#     RUNNER_TOOL_CACHE = '/opt/hostedtoolcache'[0m
 [0m[1;31m#     ImageVersion = '20260824.273.3'[0m
 [0m[1;31m#     Python3_ROOT_DIR = '/opt/hostedtoolcache/Python/3.11.16/x64'[0m
 [0m[1;31m#     DOTNET_NOLOGO = '1'[0m
-[0m[1;31m#     GITHUB_ARTIFACTS = '/home/runner/work/_temp/_runner_file_commands/artifacts_267fd877-4a9a-4a9e-be0c-865d5069f2c0'[0m
-[0m[1;31m#     GITHUB_WORKFLOW_SHA = '8adef686e585f22d5d246872fa67527b456cc70e'[0m
+[0m[1;31m#     GITHUB_ARTIFACTS = '/home/runner/work/_temp/_runner_file_commands/artifacts_27bd3db6-94a3-4136-8333-f22d43eea05d'[0m
+[0m[1;31m#     GITHUB_WORKFLOW_SHA = '1bc0adc0658fc1d263282ed3b5608f37ac1657e8'[0m
 [0m[1;31m#     GOROOT_1_24_X64 = '/opt/hostedtoolcache/go/1.24.13/x64'[0m
 [0m[1;31m#     GITHUB_REF_NAME = 'main'[0m
 [0m[1;31m#     GITHUB_JOB = 'build'[0m
@@ -463,10 +463,10 @@ Using pip 26.2.1 from /home/runner/work/telema-android/telema-android/.buildozer
 [0m[1;31m#     GOROOT_1_26_X64 = '/opt/hostedtoolcache/go/1.26.7/x64'[0m
 [0m[1;31m#     GITHUB_REPOSITORY = 'balongatullia/telema-android'[0m
 [0m[1;31m#     Python2_ROOT_DIR = '/opt/hostedtoolcache/Python/3.11.16/x64'[0m
-[0m[1;31m#     ANDROID_NDK_ROOT = '/usr/local/lib/android/sdk/ndk/27.3.13750724'[0m
 [0m[1;31m#     CHROME_BIN = '/usr/bin/google-chrome'[0m
+[0m[1;31m#     ANDROID_NDK_ROOT = '/usr/local/lib/android/sdk/ndk/27.3.13750724'[0m
 [0m[1;31m#     GITHUB_RETENTION_DAYS = '90'[0m
-[0m[1;31m#     JOURNAL_STREAM = '8:8549'[0m
+[0m[1;31m#     JOURNAL_STREAM = '8:9034'[0m
 [0m[1;31m#     RUNNER_WORKSPACE = '/home/runner/work/telema-android'[0m
 [0m[1;31m#     LEIN_HOME = '/usr/local/lib/lein'[0m
 [0m[1;31m#     LEIN_JAR = '/usr/local/lib/lein/self-installs/leiningen-2.12.0-standalone.jar'[0m
@@ -484,7 +484,7 @@ Using pip 26.2.1 from /home/runner/work/telema-android/telema-android/.buildozer
 [0m[1;31m#     ENABLE_RUNNER_TRACING = 'true'[0m
 [0m[1;31m#     GITHUB_WORKFLOW = 'Build APK Android - Telema'[0m
 [0m[1;31m#     DEBIAN_FRONTEND = 'noninteractive'[0m
-[0m[1;31m#     GITHUB_OUTPUT = '/home/runner/work/_temp/_runner_file_commands/set_output_267fd877-4a9a-4a9e-be0c-865d5069f2c0'[0m
+[0m[1;31m#     GITHUB_OUTPUT = '/home/runner/work/_temp/_runner_file_commands/set_output_27bd3db6-94a3-4136-8333-f22d43eea05d'[0m
 [0m[1;31m#     AGENT_TOOLSDIRECTORY = '/opt/hostedtoolcache'[0m
 [0m[1;31m#     _ = '/opt/hostedtoolcache/Python/3.11.16/x64/bin/buildozer'[0m
 [0m[1;31m#     PACKAGES_PATH = '/home/runner/.buildozer/android/packages'[0m
