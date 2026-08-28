@@ -1,3 +1,11 @@
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_uix_dropdown.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_uix_gridlayout.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_uix_layout.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_uix_modal.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_uix_recyclegridlayout.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_uix_relativelayout.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_uix_scrollview.py'
+[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_uix_settings.py'
 [1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_uix_slider.py'
 [1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_uix_stacklayout.py'
 [1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_uix_textinput.py'
@@ -253,7 +261,7 @@ stty: 'standard input': Inappropriate ioctl for device
 [1m[INFO][0m:    [1m[32m# Installing pure Python modules[0m[39m
 [1m[INFO][0m:    *** PYTHON PACKAGE / PROJECT INSTALL STAGE FOR ARCH: arm64-v8a ***
 stty: 'standard input': Inappropriate ioctl for device
-[1m[90m[DEBUG][39m[0m:   [90m->[0m running pip3 install certifi chardet filetype idna requests six urllib3 --dry-run --break-system-packages --ignore-installed --disable-pip-version-check --only-binary=:all: --report /tmp/tmpw2yuav5w -q --platform=android_24_arm64_v8a --platform=android_24_aarch64 --python-version 3.14.2[0m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running pip3 install certifi chardet filetype idna requests six urllib3 --dry-run --break-system-packages --ignore-installed --disable-pip-version-check --only-binary=:all: --report /tmp/tmpuashcc9_ -q --platform=android_24_arm64_v8a --platform=android_24_aarch64 --python-version 3.14.2[0m
 [1m[INFO][0m:    Extra resolved pure python dependencies :
 [1m[INFO][0m:     
 [1m[INFO][0m:      [32mcharset-normalizer[37m : [1m3.5.1[0m
@@ -270,7 +278,7 @@ stty: 'standard input': Inappropriate ioctl for device
 [1m[90m[DEBUG][39m[0m:   	Collecting pip
 [1m[90m[DEBUG][39m[0m:   	  Downloading pip-26.2.1-py3-none-any.whl.metadata (4.6 kB)
 [1m[90m[DEBUG][39m[0m:   	Downloading pip-26.2.1-py3-none-any.whl (1.8 MB)
-[1m[90m[DEBUG][39m[0m:   	[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/1.8 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.8/1.8 MB[0m [31m22.9 MB/s[0m  [33m0:00:00[0m
+[1m[90m[DEBUG][39m[0m:   	[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/1.8 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.8/1.8 MB[0m [31m13.7 MB/s[0m  [33m0:00:00[0m
 [1m[90m[DEBUG][39m[0m:   	[?25hInstalling collected packages: pip
 [1m[90m[DEBUG][39m[0m:   	  Attempting uninstall: pip
 [1m[90m[DEBUG][39m[0m:   	    Found existing installation: pip 25.3
@@ -283,7 +291,7 @@ stty: 'standard input': Inappropriate ioctl for device
 [1m[90m[DEBUG][39m[0m:   	Collecting Cython
 [1m[90m[DEBUG][39m[0m:   	  Downloading cython-3.3.0-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (28 kB)
 [1m[90m[DEBUG][39m[0m:   	Downloading cython-3.3.0-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (3.5 MB)
-[1m[90m[DEBUG][39m[0m:   	[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/3.5 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.5/3.5 MB[0m [31m117.8 MB/s[0m  [33m0:00:00[0m
+[1m[90m[DEBUG][39m[0m:   	[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/3.5 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.5/3.5 MB[0m [31m62.5 MB/s[0m  [33m0:00:00[0m
 [1m[90m[DEBUG][39m[0m:   	[?25hInstalling collected packages: Cython
 [1m[90m[DEBUG][39m[0m:   	Successfully installed Cython-3.3.0
 [1m[90m[DEBUG][39m[0m:   Create directory /home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/recipe/arm64-v8a__ndk_target_24/objects_recipe
@@ -295,7 +303,7 @@ stty: 'standard input': Inappropriate ioctl for device
 [1m[90m[DEBUG][39m[0m:   	Using pip 26.2.1 from /home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv/lib/python3.14/site-packages/pip (python 3.14)
 [1m[90m[DEBUG][39m[0m:   	[31mERROR: charset_normalizer-3.5.1-cp314-cp314-android_24_arm64_v8a.whl is not a supported wheel on this platform.[0m[31m
 [1m[90m[DEBUG][39m[0m:   	[0m
-Exception in thread background thread for pid 96947:
+Exception in thread background thread for pid 96784:
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
     self.run()
@@ -357,144 +365,136 @@ Using pip 26.2.1 from /home/runner/work/telema-android/telema-android/.buildozer
 
   STDERR:
 
-[0m[1;34m# Android packages installation done.[0m
-[0m[1;30m# Run '/opt/hostedtoolcache/Python/3.11.16/x64/bin/python -m pythonforandroid.toolchain aab -h --color=always --storage-dir=/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a --ndk-api=24 --ignore-setup-py --debug' ...[0m
-[0m[1;30m# Cwd /home/runner/work/telema-android/telema-android/.buildozer/android/platform/python-for-android[0m
-[0m[1;34m# Check application requirements[0m
-[0m[1;34m# Compile platform[0m
-[0m[1;30m# Run '/opt/hostedtoolcache/Python/3.11.16/x64/bin/python -m pythonforandroid.toolchain create --dist_name=telemagestion --bootstrap=sdl2 --requirements=python3,kivy==2.3.1 --arch=arm64-v8a --arch=armeabi-v7a --copy-libs --color=always --storage-dir=/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a --ndk-api=24 --ignore-setup-py --debug' ...[0m
-[0m[1;30m# Cwd /home/runner/work/telema-android/telema-android/.buildozer/android/platform/python-for-android[0m
-[0m[1;31m# Command failed: ('/opt/hostedtoolcache/Python/3.11.16/x64/bin/python', '-m', 'pythonforandroid.toolchain', 'create', '--dist_name=telemagestion', '--bootstrap=sdl2', '--requirements=python3,kivy==2.3.1', '--arch=arm64-v8a', '--arch=armeabi-v7a', '--copy-libs', '--color=always', '--storage-dir=/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a', '--ndk-api=24', '--ignore-setup-py', '--debug')[0m
-[0m[1;31m# Error code: 1[0m
-[0m[1;31m# ENVIRONMENT:[0m
-[0m[1;31m#     SHELL = '/bin/bash'[0m
-[0m[1;31m#     SELENIUM_JAR_PATH = '/usr/share/java/selenium-server.jar'[0m
-[0m[1;31m#     CONDA = '/usr/share/miniconda'[0m
-[0m[1;31m#     GITHUB_WORKSPACE = '/home/runner/work/telema-android/telema-android'[0m
-[0m[1;31m#     JAVA_HOME_11_X64 = '/usr/lib/jvm/temurin-11-jdk-amd64'[0m
-[0m[1;31m#     JAVA_HOME_25_X64 = '/usr/lib/jvm/temurin-25-jdk-amd64'[0m
-[0m[1;31m#     PKG_CONFIG_PATH = '/opt/hostedtoolcache/Python/3.11.16/x64/lib/pkgconfig'[0m
-[0m[1;31m#     GITHUB_PATH = '/home/runner/work/_temp/_runner_file_commands/add_path_27bd3db6-94a3-4136-8333-f22d43eea05d'[0m
-[0m[1;31m#     GITHUB_ACTION = 'build_step'[0m
-[0m[1;31m#     JAVA_HOME = '/usr/lib/jvm/temurin-11-jdk-amd64'[0m
-[0m[1;31m#     GITHUB_RUN_NUMBER = '4'[0m
-[0m[1;31m#     RUNNER_NAME = 'GitHub Actions 1000000003'[0m
-[0m[1;31m#     GRADLE_HOME = '/usr/share/gradle-9.7.1'[0m
-[0m[1;31m#     GITHUB_REPOSITORY_OWNER_ID = '321885471'[0m
-[0m[1;31m#     ACTIONS_RUNNER_ACTION_ARCHIVE_CACHE = '/opt/actionarchivecache'[0m
-[0m[1;31m#     XDG_CONFIG_HOME = '/home/runner/.config'[0m
-[0m[1;31m#     Python_ROOT_DIR = '/opt/hostedtoolcache/Python/3.11.16/x64'[0m
-[0m[1;31m#     DOTNET_SKIP_FIRST_TIME_EXPERIENCE = '1'[0m
-[0m[1;31m#     ANT_HOME = '/usr/share/ant'[0m
-[0m[1;31m#     JAVA_HOME_8_X64 = '/usr/lib/jvm/temurin-8-jdk-amd64'[0m
-[0m[1;31m#     GITHUB_TRIGGERING_ACTOR = 'balongatullia'[0m
-[0m[1;31m#     pythonLocation = '/opt/hostedtoolcache/Python/3.11.16/x64'[0m
-[0m[1;31m#     GITHUB_REF_TYPE = 'branch'[0m
-[0m[1;31m#     HOMEBREW_CLEANUP_PERIODIC_FULL_DAYS = '3650'[0m
-[0m[1;31m#     ACTIONS_RUNNER_RETURN_JOB_RESULT_FOR_HOSTED = '1'[0m
-[0m[1;31m#     ANDROID_NDK = '/usr/local/lib/android/sdk/ndk/27.3.13750724'[0m
-[0m[1;31m#     BOOTSTRAP_HASKELL_NONINTERACTIVE = '1'[0m
-[0m[1;31m#     PWD = '/home/runner/work/telema-android/telema-android'[0m
-[0m[1;31m#     PIPX_BIN_DIR = '/opt/pipx_bin'[0m
-[0m[1;31m#     LOGNAME = 'runner'[0m
-[0m[1;31m#     GITHUB_ARTIFACTS_LIST = '/home/runner/work/_temp/_runner_file_commands/artifacts_list_27bd3db6-94a3-4136-8333-f22d43eea05d'[0m
-[0m[1;31m#     GITHUB_REPOSITORY_ID = '1348829583'[0m
-[0m[1;31m#     GITHUB_ACTIONS = 'true'[0m
-[0m[1;31m#     USE_BAZEL_FALLBACK_VERSION = 'silent:'[0m
-[0m[1;31m#     ANDROID_NDK_LATEST_HOME = '/usr/local/lib/android/sdk/ndk/29.0.14206865'[0m
-[0m[1;31m#     SYSTEMD_EXEC_PID = '1579'[0m
-[0m[1;31m#     GITHUB_SHA = '1bc0adc0658fc1d263282ed3b5608f37ac1657e8'[0m
-[0m[1;31m#     GITHUB_WORKFLOW_REF = 'balongatullia/telema-android/.github/workflows/build-apk.yml@refs/heads/main'[0m
-[0m[1;31m#     POWERSHELL_DISTRIBUTION_CHANNEL = 'GitHub-Actions-Linux'[0m
-[0m[1;31m#     RUNNER_ENVIRONMENT = 'github-hosted'[0m
-[0m[1;31m#     DOTNET_MULTILEVEL_LOOKUP = '0'[0m
-[0m[1;31m#     GITHUB_REF = 'refs/heads/main'[0m
-[0m[1;31m#     RUNNER_OS = 'Linux'[0m
-[0m[1;31m#     GITHUB_REF_PROTECTED = 'false'[0m
-[0m[1;31m#     HOME = '/home/runner'[0m
-[0m[1;31m#     GITHUB_API_URL = 'https://api.github.com'[0m
-[0m[1;31m#     LANG = 'C.UTF-8'[0m
-[0m[1;31m#     GOROOT_1_25_X64 = '/opt/hostedtoolcache/go/1.25.14/x64'[0m
-[0m[1;31m#     RUNNER_TRACKING_ID = 'github_9c3ae951-5bf9-4366-a300-aece9bebcf5e'[0m
-[0m[1;31m#     RUNNER_ARCH = 'X64'[0m
-[0m[1;31m#     RUNNER_TEMP = '/home/runner/work/_temp'[0m
-[0m[1;31m#     GITHUB_STATE = '/home/runner/work/_temp/_runner_file_commands/save_state_27bd3db6-94a3-4136-8333-f22d43eea05d'[0m
-[0m[1;31m#     EDGEWEBDRIVER = '/usr/local/share/edge_driver'[0m
-[0m[1;31m#     JAVA_HOME_21_X64 = '/usr/lib/jvm/temurin-21-jdk-amd64'[0m
-[0m[1;31m#     GITHUB_ENV = '/home/runner/work/_temp/_runner_file_commands/set_env_27bd3db6-94a3-4136-8333-f22d43eea05d'[0m
-[0m[1;31m#     GITHUB_EVENT_PATH = '/home/runner/work/_temp/_github_workflow/event.json'[0m
-[0m[1;31m#     INVOCATION_ID = '5963b527d35b44679f63550e9aeeabfd'[0m
-[0m[1;31m#     GITHUB_EVENT_NAME = 'push'[0m
-[0m[1;31m#     GITHUB_RUN_ID = '33175258569'[0m
-[0m[1;31m#     JAVA_HOME_17_X64 = '/usr/lib/jvm/temurin-17-jdk-amd64'[0m
-[0m[1;31m#     ANDROID_NDK_HOME = '/usr/local/lib/android/sdk/ndk/27.3.13750724'[0m
-[0m[1;31m#     GITHUB_STEP_SUMMARY = '/home/runner/work/_temp/_runner_file_commands/step_summary_27bd3db6-94a3-4136-8333-f22d43eea05d'[0m
-[0m[1;31m#     HOMEBREW_NO_AUTO_UPDATE = '1'[0m
-[0m[1;31m#     GITHUB_ACTOR = 'balongatullia'[0m
-[0m[1;31m#     NVM_DIR = '/home/runner/.nvm'[0m
-[0m[1;31m#     SGX_AESM_ADDR = '1'[0m
-[0m[1;31m#     GITHUB_RUN_ATTEMPT = '1'[0m
-[0m[1;31m#     ANDROID_HOME = '/usr/local/lib/android/sdk'[0m
-[0m[1;31m#     GITHUB_GRAPHQL_URL = 'https://api.github.com/graphql'[0m
-[0m[1;31m#     ACCEPT_EULA = 'Y'[0m
-[0m[1;31m#     USER = 'runner'[0m
-[0m[1;31m#     PSModulePath = '/root/.local/share/powershell/Modules:/usr/local/share/powershell/Modules:/opt/microsoft/powershell/7/Modules:/usr/share/az_15.6.1'[0m
-[0m[1;31m#     GITHUB_SERVER_URL = 'https://github.com'[0m
-[0m[1;31m#     PIPX_HOME = '/opt/pipx'[0m
-[0m[1;31m#     GECKOWEBDRIVER = '/usr/local/share/gecko_driver'[0m
-[0m[1;31m#     CHROMEWEBDRIVER = '/usr/local/share/chromedriver-linux64'[0m
-[0m[1;31m#     SHLVL = '0'[0m
-[0m[1;31m#     ANDROID_SDK_ROOT = '/usr/local/lib/android/sdk'[0m
-[0m[1;31m#     VCPKG_INSTALLATION_ROOT = '/usr/local/share/vcpkg'[0m
-[0m[1;31m#     GITHUB_ACTOR_ID = '321885471'[0m
-[0m[1;31m#     ACTIONS_ORCHESTRATION_ID = '14a68116-ad02-4ad0-803b-7a68315e0f7e.build.__default'[0m
-[0m[1;31m#     RUNNER_TOOL_CACHE = '/opt/hostedtoolcache'[0m
-[0m[1;31m#     ImageVersion = '20260824.273.3'[0m
-[0m[1;31m#     Python3_ROOT_DIR = '/opt/hostedtoolcache/Python/3.11.16/x64'[0m
-[0m[1;31m#     DOTNET_NOLOGO = '1'[0m
-[0m[1;31m#     GITHUB_ARTIFACTS = '/home/runner/work/_temp/_runner_file_commands/artifacts_27bd3db6-94a3-4136-8333-f22d43eea05d'[0m
-[0m[1;31m#     GITHUB_WORKFLOW_SHA = '1bc0adc0658fc1d263282ed3b5608f37ac1657e8'[0m
-[0m[1;31m#     GOROOT_1_24_X64 = '/opt/hostedtoolcache/go/1.24.13/x64'[0m
-[0m[1;31m#     GITHUB_REF_NAME = 'main'[0m
-[0m[1;31m#     GITHUB_JOB = 'build'[0m
-[0m[1;31m#     LD_LIBRARY_PATH = '/opt/hostedtoolcache/Python/3.11.16/x64/lib'[0m
-[0m[1;31m#     XDG_RUNTIME_DIR = '/run/user/1001'[0m
-[0m[1;31m#     AZURE_EXTENSION_DIR = '/opt/az/azcliextensions'[0m
-[0m[1;31m#     GOROOT_1_26_X64 = '/opt/hostedtoolcache/go/1.26.7/x64'[0m
-[0m[1;31m#     GITHUB_REPOSITORY = 'balongatullia/telema-android'[0m
-[0m[1;31m#     Python2_ROOT_DIR = '/opt/hostedtoolcache/Python/3.11.16/x64'[0m
-[0m[1;31m#     CHROME_BIN = '/usr/bin/google-chrome'[0m
-[0m[1;31m#     ANDROID_NDK_ROOT = '/usr/local/lib/android/sdk/ndk/27.3.13750724'[0m
-[0m[1;31m#     GITHUB_RETENTION_DAYS = '90'[0m
-[0m[1;31m#     JOURNAL_STREAM = '8:9034'[0m
-[0m[1;31m#     RUNNER_WORKSPACE = '/home/runner/work/telema-android'[0m
-[0m[1;31m#     LEIN_HOME = '/usr/local/lib/lein'[0m
-[0m[1;31m#     LEIN_JAR = '/usr/local/lib/lein/self-installs/leiningen-2.12.0-standalone.jar'[0m
-[0m[1;31m#     GITHUB_ACTION_REPOSITORY = ''[0m
-[0m[1;31m#     HCA_CLOUD_PROVIDER = 'azure'[0m
-[0m[1;31m#     PATH = '/home/runner/.buildozer/android/platform/apache-ant-1.9.4/bin:/opt/hostedtoolcache/Python/3.11.16/x64/bin:/opt/hostedtoolcache/Python/3.11.16/x64:/snap/bin:/home/runner/.local/bin:/opt/pipx_bin:/home/runner/.cargo/bin:/home/runner/.config/composer/vendor/bin:/usr/local/.ghcup/bin:/home/runner/.dotnet/tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'[0m
-[0m[1;31m#     GITHUB_BASE_REF = ''[0m
-[0m[1;31m#     GHCUP_INSTALL_BASE_PREFIX = '/usr/local'[0m
-[0m[1;31m#     CI = 'true'[0m
-[0m[1;31m#     SWIFT_PATH = '/usr/share/swift/usr/bin'[0m
-[0m[1;31m#     ImageOS = 'ubuntu22'[0m
-[0m[1;31m#     GITHUB_REPOSITORY_OWNER = 'balongatullia'[0m
-[0m[1;31m#     GITHUB_HEAD_REF = ''[0m
-[0m[1;31m#     GITHUB_ACTION_REF = ''[0m
-[0m[1;31m#     ENABLE_RUNNER_TRACING = 'true'[0m
-[0m[1;31m#     GITHUB_WORKFLOW = 'Build APK Android - Telema'[0m
-[0m[1;31m#     DEBIAN_FRONTEND = 'noninteractive'[0m
-[0m[1;31m#     GITHUB_OUTPUT = '/home/runner/work/_temp/_runner_file_commands/set_output_27bd3db6-94a3-4136-8333-f22d43eea05d'[0m
-[0m[1;31m#     AGENT_TOOLSDIRECTORY = '/opt/hostedtoolcache'[0m
-[0m[1;31m#     _ = '/opt/hostedtoolcache/Python/3.11.16/x64/bin/buildozer'[0m
-[0m[1;31m#     PACKAGES_PATH = '/home/runner/.buildozer/android/packages'[0m
-[0m[1;31m#     ANDROIDSDK = '/home/runner/.buildozer/android/platform/android-sdk'[0m
-[0m[1;31m#     ANDROIDNDK = '/home/runner/.buildozer/android/platform/android-ndk-r25b'[0m
-[0m[1;31m#     ANDROIDAPI = '34'[0m
-[0m[1;31m#     ANDROIDMINAPI = '24'[0m
-[0m[1;31m# [0m
-[0m[1;31m# Buildozer failed to execute the last command[0m
-[0m[1;31m# The error might be hidden in the log above this error[0m
-[0m[1;31m# Please read the full log, and search for it before[0m
-[0m[1;31m# raising an issue with buildozer itself.[0m
-[0m[1;31m# In case of a bug report, please add a full log with log_level = 2[0m
+# Command failed: ['/opt/hostedtoolcache/Python/3.11.16/x64/bin/python', '-m', 'pythonforandroid.toolchain', 'create', '--dist_name=telemagestion', '--bootstrap=sdl2', '--requirements=python3,kivy==2.3.1', '--arch=arm64-v8a', '--arch=armeabi-v7a', '--copy-libs', '--color=always', '--storage-dir=/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a', '--ndk-api=24', '--ignore-setup-py', '--debug']
+# ENVIRONMENT:
+#     SHELL = '/bin/bash'
+#     SELENIUM_JAR_PATH = '/usr/share/java/selenium-server.jar'
+#     CONDA = '/usr/share/miniconda'
+#     GITHUB_WORKSPACE = '/home/runner/work/telema-android/telema-android'
+#     JAVA_HOME_11_X64 = '/usr/lib/jvm/temurin-11-jdk-amd64'
+#     JAVA_HOME_25_X64 = '/usr/lib/jvm/temurin-25-jdk-amd64'
+#     PKG_CONFIG_PATH = '/opt/hostedtoolcache/Python/3.11.16/x64/lib/pkgconfig'
+#     GITHUB_PATH = '/home/runner/work/_temp/_runner_file_commands/add_path_e86eb3b8-0860-4ba8-9e12-dae03bb81ca7'
+#     GITHUB_ACTION = 'build_step'
+#     JAVA_HOME = '/usr/lib/jvm/temurin-11-jdk-amd64'
+#     GITHUB_RUN_NUMBER = '5'
+#     RUNNER_NAME = 'GitHub Actions 1000000004'
+#     GRADLE_HOME = '/usr/share/gradle-9.7.1'
+#     GITHUB_REPOSITORY_OWNER_ID = '321885471'
+#     ACTIONS_RUNNER_ACTION_ARCHIVE_CACHE = '/opt/actionarchivecache'
+#     XDG_CONFIG_HOME = '/home/runner/.config'
+#     Python_ROOT_DIR = '/opt/hostedtoolcache/Python/3.11.16/x64'
+#     DOTNET_SKIP_FIRST_TIME_EXPERIENCE = '1'
+#     ANT_HOME = '/usr/share/ant'
+#     JAVA_HOME_8_X64 = '/usr/lib/jvm/temurin-8-jdk-amd64'
+#     GITHUB_TRIGGERING_ACTOR = 'balongatullia'
+#     pythonLocation = '/opt/hostedtoolcache/Python/3.11.16/x64'
+#     GITHUB_REF_TYPE = 'branch'
+#     HOMEBREW_CLEANUP_PERIODIC_FULL_DAYS = '3650'
+#     ACTIONS_RUNNER_RETURN_JOB_RESULT_FOR_HOSTED = '1'
+#     ANDROID_NDK = '/usr/local/lib/android/sdk/ndk/27.3.13750724'
+#     BOOTSTRAP_HASKELL_NONINTERACTIVE = '1'
+#     PWD = '/home/runner/work/telema-android/telema-android'
+#     PIPX_BIN_DIR = '/opt/pipx_bin'
+#     LOGNAME = 'runner'
+#     GITHUB_ARTIFACTS_LIST = '/home/runner/work/_temp/_runner_file_commands/artifacts_list_e86eb3b8-0860-4ba8-9e12-dae03bb81ca7'
+#     GITHUB_REPOSITORY_ID = '1348829583'
+#     GITHUB_ACTIONS = 'true'
+#     USE_BAZEL_FALLBACK_VERSION = 'silent:'
+#     ANDROID_NDK_LATEST_HOME = '/usr/local/lib/android/sdk/ndk/29.0.14206865'
+#     SYSTEMD_EXEC_PID = '1417'
+#     GITHUB_SHA = 'e9b337ffd081ceb0bdf702b8e2bd1589365aa577'
+#     GITHUB_WORKFLOW_REF = 'balongatullia/telema-android/.github/workflows/build-apk.yml@refs/heads/main'
+#     POWERSHELL_DISTRIBUTION_CHANNEL = 'GitHub-Actions-Linux'
+#     RUNNER_ENVIRONMENT = 'github-hosted'
+#     DOTNET_MULTILEVEL_LOOKUP = '0'
+#     GITHUB_REF = 'refs/heads/main'
+#     RUNNER_OS = 'Linux'
+#     GITHUB_REF_PROTECTED = 'false'
+#     HOME = '/home/runner'
+#     GITHUB_API_URL = 'https://api.github.com'
+#     LANG = 'C.UTF-8'
+#     GOROOT_1_25_X64 = '/opt/hostedtoolcache/go/1.25.14/x64'
+#     RUNNER_TRACKING_ID = 'github_04a7e466-121f-4308-959c-cf2a4fd91fa5'
+#     RUNNER_ARCH = 'X64'
+#     RUNNER_TEMP = '/home/runner/work/_temp'
+#     GITHUB_STATE = '/home/runner/work/_temp/_runner_file_commands/save_state_e86eb3b8-0860-4ba8-9e12-dae03bb81ca7'
+#     EDGEWEBDRIVER = '/usr/local/share/edge_driver'
+#     JAVA_HOME_21_X64 = '/usr/lib/jvm/temurin-21-jdk-amd64'
+#     GITHUB_ENV = '/home/runner/work/_temp/_runner_file_commands/set_env_e86eb3b8-0860-4ba8-9e12-dae03bb81ca7'
+#     GITHUB_EVENT_PATH = '/home/runner/work/_temp/_github_workflow/event.json'
+#     INVOCATION_ID = '7bef879166c34014915c06fdadb753a1'
+#     GITHUB_EVENT_NAME = 'push'
+#     GITHUB_RUN_ID = '33212495250'
+#     JAVA_HOME_17_X64 = '/usr/lib/jvm/temurin-17-jdk-amd64'
+#     ANDROID_NDK_HOME = '/usr/local/lib/android/sdk/ndk/27.3.13750724'
+#     GITHUB_STEP_SUMMARY = '/home/runner/work/_temp/_runner_file_commands/step_summary_e86eb3b8-0860-4ba8-9e12-dae03bb81ca7'
+#     HOMEBREW_NO_AUTO_UPDATE = '1'
+#     GITHUB_ACTOR = 'balongatullia'
+#     NVM_DIR = '/home/runner/.nvm'
+#     SGX_AESM_ADDR = '1'
+#     GITHUB_RUN_ATTEMPT = '1'
+#     ANDROID_HOME = '/usr/local/lib/android/sdk'
+#     GITHUB_GRAPHQL_URL = 'https://api.github.com/graphql'
+#     ACCEPT_EULA = 'Y'
+#     USER = 'runner'
+#     PSModulePath = '/root/.local/share/powershell/Modules:/usr/local/share/powershell/Modules:/opt/microsoft/powershell/7/Modules:/usr/share/az_15.6.1'
+#     GITHUB_SERVER_URL = 'https://github.com'
+#     PIPX_HOME = '/opt/pipx'
+#     GECKOWEBDRIVER = '/usr/local/share/gecko_driver'
+#     CHROMEWEBDRIVER = '/usr/local/share/chromedriver-linux64'
+#     SHLVL = '0'
+#     ANDROID_SDK_ROOT = '/usr/local/lib/android/sdk'
+#     VCPKG_INSTALLATION_ROOT = '/usr/local/share/vcpkg'
+#     GITHUB_ACTOR_ID = '321885471'
+#     ACTIONS_ORCHESTRATION_ID = 'ffea709a-0bf8-4200-b063-12444a81615c.build.__default'
+#     RUNNER_TOOL_CACHE = '/opt/hostedtoolcache'
+#     ImageVersion = '20260824.273.3'
+#     Python3_ROOT_DIR = '/opt/hostedtoolcache/Python/3.11.16/x64'
+#     DOTNET_NOLOGO = '1'
+#     GITHUB_ARTIFACTS = '/home/runner/work/_temp/_runner_file_commands/artifacts_e86eb3b8-0860-4ba8-9e12-dae03bb81ca7'
+#     GITHUB_WORKFLOW_SHA = 'e9b337ffd081ceb0bdf702b8e2bd1589365aa577'
+#     GOROOT_1_24_X64 = '/opt/hostedtoolcache/go/1.24.13/x64'
+#     GITHUB_REF_NAME = 'main'
+#     GITHUB_JOB = 'build'
+#     LD_LIBRARY_PATH = '/opt/hostedtoolcache/Python/3.11.16/x64/lib'
+#     XDG_RUNTIME_DIR = '/run/user/1001'
+#     AZURE_EXTENSION_DIR = '/opt/az/azcliextensions'
+#     GOROOT_1_26_X64 = '/opt/hostedtoolcache/go/1.26.7/x64'
+#     GITHUB_REPOSITORY = 'balongatullia/telema-android'
+#     Python2_ROOT_DIR = '/opt/hostedtoolcache/Python/3.11.16/x64'
+#     ANDROID_NDK_ROOT = '/usr/local/lib/android/sdk/ndk/27.3.13750724'
+#     CHROME_BIN = '/usr/bin/google-chrome'
+#     GITHUB_RETENTION_DAYS = '90'
+#     JOURNAL_STREAM = '8:9448'
+#     RUNNER_WORKSPACE = '/home/runner/work/telema-android'
+#     LEIN_HOME = '/usr/local/lib/lein'
+#     LEIN_JAR = '/usr/local/lib/lein/self-installs/leiningen-2.12.0-standalone.jar'
+#     GITHUB_ACTION_REPOSITORY = ''
+#     HCA_CLOUD_PROVIDER = 'azure'
+#     PATH = '/home/runner/.buildozer/android/platform/apache-ant-1.9.4/bin:/opt/hostedtoolcache/Python/3.11.16/x64/bin:/opt/hostedtoolcache/Python/3.11.16/x64:/snap/bin:/home/runner/.local/bin:/opt/pipx_bin:/home/runner/.cargo/bin:/home/runner/.config/composer/vendor/bin:/usr/local/.ghcup/bin:/home/runner/.dotnet/tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+#     GITHUB_BASE_REF = ''
+#     GHCUP_INSTALL_BASE_PREFIX = '/usr/local'
+#     CI = 'true'
+#     SWIFT_PATH = '/usr/share/swift/usr/bin'
+#     ImageOS = 'ubuntu22'
+#     GITHUB_REPOSITORY_OWNER = 'balongatullia'
+#     GITHUB_HEAD_REF = ''
+#     GITHUB_ACTION_REF = ''
+#     ENABLE_RUNNER_TRACING = 'true'
+#     GITHUB_WORKFLOW = 'Build APK Android - Telema'
+#     DEBIAN_FRONTEND = 'noninteractive'
+#     GITHUB_OUTPUT = '/home/runner/work/_temp/_runner_file_commands/set_output_e86eb3b8-0860-4ba8-9e12-dae03bb81ca7'
+#     AGENT_TOOLSDIRECTORY = '/opt/hostedtoolcache'
+#     _ = '/opt/hostedtoolcache/Python/3.11.16/x64/bin/buildozer'
+#     PACKAGES_PATH = '/home/runner/.buildozer/android/packages'
+#     ANDROIDSDK = '/home/runner/.buildozer/android/platform/android-sdk'
+#     ANDROIDNDK = '/home/runner/.buildozer/android/platform/android-ndk-r25b'
+#     ANDROIDAPI = '34'
+#     ANDROIDMINAPI = '24'
+# 
+# Buildozer failed to execute the last command
+# The error might be hidden in the log above this error
+# Please read the full log, and search for it before
+# raising an issue with buildozer itself.
+# In case of a bug report, please add a full log with log_level = 2
