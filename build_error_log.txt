@@ -1,272 +1,251 @@
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_uix_dropdown.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_uix_gridlayout.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_uix_layout.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_uix_modal.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_uix_recyclegridlayout.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_uix_relativelayout.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_uix_scrollview.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_uix_settings.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_uix_slider.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_uix_stacklayout.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_uix_textinput.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_uix_translate_coordinates.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_uix_videoplayer.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_uix_widget.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_utils.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_vector.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_video.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_weakmethod.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_widget.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_widget_walk.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_window_base.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_window_info.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/testkv.kv'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/unicode_files.zip'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/unicode_font.zip'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/visual_test_label.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/data/test.ini'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/pyinstaller/test_pyinstaller.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/pyinstaller/simple_widget/main.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/pyinstaller/simple_widget/main.spec'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/pyinstaller/simple_widget/project/__init__.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/pyinstaller/simple_widget/project/widget.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/pyinstaller/video_widget/main.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/pyinstaller/video_widget/main.spec'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/pyinstaller/video_widget/project/__init__.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_issues/test_6315.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_issues/test_issue_1084.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_issues/test_issue_1091.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_issues/test_issue_599.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_issues/test_issue_609.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_issues/test_issue_6909.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_issues/test_issue_883.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_urlrequest/test_urlrequest_requests.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tests/test_urlrequest/test_urlrequest_urllib.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/__init__.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/benchmark.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/changelog_parser.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/coverage.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/gallery.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/generate-icons.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/kviewer.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/report.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/stub-gl-debug.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/texturecompress.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/gles_compat/gl2.h'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/gles_compat/subset_gles.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/highlight/__init__.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/highlight/kivy-mode.el'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/highlight/kivy.json-tmlanguage'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/highlight/kivy.tmLanguage'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/highlight/kivy.vim'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/image-testsuite/README.md'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/image-testsuite/gimp28-testsuite.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/image-testsuite/imagemagick-testsuite.sh'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/packaging/__init__.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/packaging/cython_cfg.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/packaging/factory.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/packaging/pyinstaller_hooks/__init__.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/packaging/pyinstaller_hooks/__main__.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/packaging/pyinstaller_hooks/hook-kivy.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/packaging/pyinstaller_hooks/pyi_rth_kivy.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/pep8checker/pep8.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/pep8checker/pep8kivy.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/pep8checker/pre-commit.githook'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/precommit_hooks/pre-commit-config.yaml'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/action_bar.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/action_group.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/action_group_disabled.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/action_group_down.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/action_item.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/action_item_down.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/action_view.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/audio-volume-high.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/audio-volume-low.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/audio-volume-medium.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/audio-volume-muted.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/bubble.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/bubble_arrow.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/bubble_btn.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/bubble_btn_pressed.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/button.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/button_disabled.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/button_disabled_pressed.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/button_pressed.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/checkbox_disabled_off.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/checkbox_disabled_on.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/checkbox_off.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/checkbox_on.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/checkbox_radio_disabled_off.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/checkbox_radio_disabled_on.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/checkbox_radio_off.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/checkbox_radio_on.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/close.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/filechooser_file.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/filechooser_folder.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/filechooser_selected.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/image-missing.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/media-playback-pause.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/media-playback-start.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/media-playback-stop.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/modalview-background.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/overflow.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/player-background.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/player-play-overlay.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/previous_normal.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/progressbar.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/progressbar_background.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/ring.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/selector_left.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/selector_middle.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/selector_right.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/separator.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/slider_cursor.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/slider_cursor_disabled.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/sliderh_background.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/sliderh_background_disabled.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/sliderv_background.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/sliderv_background_disabled.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/spinner.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/spinner_disabled.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/spinner_pressed.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/splitter.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/splitter_disabled.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/splitter_disabled_down.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/splitter_disabled_down_h.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/splitter_disabled_h.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/splitter_down.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/splitter_down_h.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/splitter_grip.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/splitter_grip_h.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/splitter_h.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/switch-background.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/switch-background_disabled.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/switch-button.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/switch-button_disabled.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/tab.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/tab_btn.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/tab_btn_disabled.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/tab_btn_disabled_pressed.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/tab_btn_pressed.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/tab_disabled.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/textinput.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/textinput_active.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/textinput_disabled.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/textinput_disabled_active.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/tree_closed.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/tree_opened.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/vkeyboard_background.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/vkeyboard_disabled_background.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/vkeyboard_disabled_key_down.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/vkeyboard_disabled_key_normal.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/vkeyboard_key_down.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/tools/theming/defaulttheme/vkeyboard_key_normal.png'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/__init__.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/accordion.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/actionbar.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/anchorlayout.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/boxlayout.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/bubble.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/button.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/camera.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/carousel.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/checkbox.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/codeinput.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/colorpicker.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/dropdown.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/effectwidget.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/filechooser.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/floatlayout.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/gesturesurface.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/gridlayout.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/image.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/label.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/layout.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/modalview.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/pagelayout.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/popup.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/progressbar.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/recycleboxlayout.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/recyclegridlayout.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/recyclelayout.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/relativelayout.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/rst.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/sandbox.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/scatter.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/scatterlayout.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/screenmanager.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/scrollview.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/settings.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/slider.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/spinner.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/splitter.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/stacklayout.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/stencilview.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/switch.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/tabbedpanel.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/textinput.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/togglebutton.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/treeview.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/video.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/videoplayer.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/vkeyboard.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/widget.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/behaviors/__init__.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/behaviors/button.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/behaviors/codenavigation.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/behaviors/compoundselection.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/behaviors/cover.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/behaviors/drag.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/behaviors/emacs.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/behaviors/focus.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/behaviors/knspace.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/behaviors/togglebutton.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/behaviors/touchripple.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/recycleview/__init__.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/recycleview/datamodel.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/recycleview/layout.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'kivy/uix/recycleview/views.py'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'Kivy-2.3.1.dist-info/AUTHORS'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'Kivy-2.3.1.dist-info/LICENSE'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'Kivy-2.3.1.dist-info/METADATA'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'Kivy-2.3.1.dist-info/WHEEL'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'Kivy-2.3.1.dist-info/dependency_links.txt'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'Kivy-2.3.1.dist-info/top_level.txt'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] adding 'Kivy-2.3.1.dist-info/RECORD'
-[1m[90m[DEBUG][39m[0m:   	[INFO   ] removing build/bdist.linux-x86_64/wheel
-[1m[90m[DEBUG][39m[0m:   	[1m[92mSuccessfully built [4mKivy-2.3.1-cp314-cp314-android_24_arm.whl[0m[1m[92m[0m
-[1m[INFO][0m:    [36m<- directory context /home/runner/work/telema-android/telema-android/.buildozer/android/platform/python-for-android[39m
-[1m[INFO][0m:    Installing built wheel: Kivy-2.3.1-cp314-cp314-android_24_arm.whl
-[1m[INFO][0m:    [1m[32m# Biglinking object files[0m[39m
-[1m[31m[WARNING][39m[0m: Context's python recipe found, skipping biglink (will this work?)
-[1m[INFO][0m:    [1m[32m# Postbuilding recipes[0m[39m
-[1m[INFO][0m:    [1m[32mPostbuilding hostpython3 for armeabi-v7a[0m[39m
-[1m[INFO][0m:    [1m[32mPostbuilding libffi for armeabi-v7a[0m[39m
-[1m[INFO][0m:    [1m[32mPostbuilding openssl for armeabi-v7a[0m[39m
-[1m[INFO][0m:    [1m[32mPostbuilding sdl2_image for armeabi-v7a[0m[39m
-[1m[INFO][0m:    [1m[32mPostbuilding sdl2_mixer for armeabi-v7a[0m[39m
-[1m[INFO][0m:    [1m[32mPostbuilding sdl2_ttf for armeabi-v7a[0m[39m
-[1m[INFO][0m:    [1m[32mPostbuilding sqlite3 for armeabi-v7a[0m[39m
-[1m[INFO][0m:    [1m[32mPostbuilding python3 for armeabi-v7a[0m[39m
-[1m[INFO][0m:    [1m[32mPostbuilding sdl2 for armeabi-v7a[0m[39m
-[1m[INFO][0m:    [1m[32mPostbuilding pyjnius for armeabi-v7a[0m[39m
-[1m[INFO][0m:    Copying pyjnius java class to classes build dir
-[1m[INFO][0m:    [36m-> directory context /home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/pyjnius-sdl2/armeabi-v7a__ndk_target_24/pyjnius[39m
+[1m[90m[DEBUG][39m[0m:   	./other_builds/hostpython3/desktop/hostpython3/native-build/build/lib.linux-x86_64-3.14/_bisect.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/hostpython3/desktop/hostpython3/native-build/build/lib.linux-x86_64-3.14/_codecs_iso2022.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/hostpython3/desktop/hostpython3/native-build/build/lib.linux-x86_64-3.14/fcntl.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/hostpython3/desktop/hostpython3/native-build/build/lib.linux-x86_64-3.14/_sha3.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/hostpython3/desktop/hostpython3/native-build/build/lib.linux-x86_64-3.14/_csv.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/sqlite3/armeabi-v7a__ndk_target_24/sqlite3/libsqlite3.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/sqlite3/arm64-v8a__ndk_target_24/sqlite3/libsqlite3.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/_metrics.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/_event.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/_clock.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/properties.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/weakproxy.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/opengl_utils.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/stencil_instructions.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/vbo.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/instructions.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/tesselator.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/gl_instructions.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/shader.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/vertex.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/fbo.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/context_instructions.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/texture.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/vertex_instructions.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/opengl.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/boxshadow.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/compiler.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/svg.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/cgl.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/cgl_backend/cgl_gl.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/cgl_backend/cgl_mock.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/cgl_backend/cgl_debug.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/cgl_backend/cgl_glew.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/cgl_backend/cgl_sdl2.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/transformation.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/buffer.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/context.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/scissor_instructions.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/core/audio/audio_sdl2.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/core/window/_window_sdl2.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/core/window/window_info.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/core/text/text_layout.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/core/text/_text_sdl2.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/core/image/_img_sdl2.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/armeabi-v7a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/core/clipboard/_clipboard_sdl2.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/_metrics.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/_event.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/_clock.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/properties.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/weakproxy.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/opengl_utils.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/stencil_instructions.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/vbo.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/instructions.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/tesselator.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/gl_instructions.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/shader.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/vertex.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/fbo.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/context_instructions.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/texture.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/vertex_instructions.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/opengl.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/boxshadow.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/compiler.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/svg.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/cgl.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/cgl_backend/cgl_gl.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/cgl_backend/cgl_mock.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/cgl_backend/cgl_debug.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/cgl_backend/cgl_glew.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/cgl_backend/cgl_sdl2.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/transformation.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/buffer.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/context.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/graphics/scissor_instructions.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/core/audio/audio_sdl2.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/core/window/_window_sdl2.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/core/window/window_info.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/core/text/text_layout.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/core/text/_text_sdl2.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/core/image/_img_sdl2.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/kivy-sdl2/arm64-v8a__ndk_target_24/kivy/build/lib.linux-x86_64-cpython-314/kivy/core/clipboard/_clipboard_sdl2.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/android-sdl2/armeabi-v7a__ndk_target_24/android/build/lib.linux-x86_64-cpython-314/android/_android_sound.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/android-sdl2/armeabi-v7a__ndk_target_24/android/build/lib.linux-x86_64-cpython-314/android/_android.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/android-sdl2/armeabi-v7a__ndk_target_24/android/build/lib.linux-x86_64-cpython-314/android/_android_billing.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/android-sdl2/arm64-v8a__ndk_target_24/android/build/lib.linux-x86_64-cpython-314/android/_android_sound.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/android-sdl2/arm64-v8a__ndk_target_24/android/build/lib.linux-x86_64-cpython-314/android/_android.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./other_builds/android-sdl2/arm64-v8a__ndk_target_24/android/build/lib.linux-x86_64-cpython-314/android/_android_billing.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./venv/lib/python3.14/site-packages/Cython/Runtime/refnanny.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./venv/lib/python3.14/site-packages/Cython/Utils.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./venv/lib/python3.14/site-packages/Cython/_shared.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./venv/lib/python3.14/site-packages/Cython/Compiler/Parsing.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./venv/lib/python3.14/site-packages/Cython/Compiler/LineTable.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./venv/lib/python3.14/site-packages/Cython/Compiler/Visitor.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./venv/lib/python3.14/site-packages/Cython/Compiler/StringEncoding.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./venv/lib/python3.14/site-packages/Cython/Compiler/FlowControl.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./venv/lib/python3.14/site-packages/Cython/Compiler/Code.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./venv/lib/python3.14/site-packages/Cython/Compiler/FusedNode.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./venv/lib/python3.14/site-packages/Cython/Compiler/Scanning.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./venv/lib/python3.14/site-packages/Cython/Plex/Transitions.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./venv/lib/python3.14/site-packages/Cython/Plex/DFA.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./venv/lib/python3.14/site-packages/Cython/Plex/Scanners.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./venv/lib/python3.14/site-packages/Cython/Plex/Machines.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./venv/lib/python3.14/site-packages/Cython/Plex/Actions.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./venv/lib/python3.14/site-packages/Cython/Tempita/_tempita.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./venv/lib/python3.14/site-packages/Cython/LZSS.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./venv/lib/python3.14/site-packages/Cython/StringIOTree.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/jnius/jnius.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/_metrics.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/_event.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/_clock.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/properties.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/weakproxy.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/graphics/opengl_utils.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/graphics/stencil_instructions.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/graphics/vbo.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/graphics/instructions.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/graphics/tesselator.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/graphics/gl_instructions.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/graphics/shader.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/graphics/vertex.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/graphics/fbo.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/graphics/context_instructions.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/graphics/texture.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/graphics/vertex_instructions.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/graphics/opengl.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/graphics/boxshadow.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/graphics/compiler.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/graphics/svg.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/graphics/cgl.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/graphics/cgl_backend/cgl_gl.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/graphics/cgl_backend/cgl_mock.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/graphics/cgl_backend/cgl_debug.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/graphics/cgl_backend/cgl_glew.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/graphics/cgl_backend/cgl_sdl2.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/graphics/transformation.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/graphics/buffer.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/graphics/context.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/graphics/scissor_instructions.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/core/audio/audio_sdl2.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/core/window/_window_sdl2.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/core/window/window_info.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/core/text/text_layout.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/core/text/_text_sdl2.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/core/image/_img_sdl2.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/kivy/core/clipboard/_clipboard_sdl2.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/android/_android_sound.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/android/_android.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/arm64-v8a/android/_android_billing.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/jnius/jnius.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/_metrics.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/_event.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/_clock.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/properties.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/weakproxy.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/graphics/opengl_utils.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/graphics/stencil_instructions.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/graphics/vbo.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/graphics/instructions.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/graphics/tesselator.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/graphics/gl_instructions.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/graphics/shader.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/graphics/vertex.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/graphics/fbo.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/graphics/context_instructions.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/graphics/texture.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/graphics/vertex_instructions.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/graphics/opengl.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/graphics/boxshadow.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/graphics/compiler.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/graphics/svg.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/graphics/cgl.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/graphics/cgl_backend/cgl_gl.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/graphics/cgl_backend/cgl_mock.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/graphics/cgl_backend/cgl_debug.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/graphics/cgl_backend/cgl_glew.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/graphics/cgl_backend/cgl_sdl2.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/graphics/transformation.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/graphics/buffer.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/graphics/context.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/graphics/scissor_instructions.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/core/audio/audio_sdl2.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/core/window/_window_sdl2.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/core/window/window_info.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/core/text/text_layout.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/core/text/_text_sdl2.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/core/image/_img_sdl2.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/kivy/core/clipboard/_clipboard_sdl2.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/chardet/_kernel.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/chardet/models/__init__.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/chardet/pipeline/validity.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/chardet/pipeline/postprocess.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/chardet/pipeline/ascii.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/chardet/pipeline/statistical.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/chardet/pipeline/magic.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/chardet/pipeline/utf8.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/chardet/pipeline/escape.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/chardet/pipeline/language.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/chardet/pipeline/structural.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/chardet/pipeline/utf1632.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/chardet/pipeline/confusion.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/chardet/pipeline/orchestrator.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/android/_android_sound.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/android/_android.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/android/_android_billing.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./python-installs/telemagestion/armeabi-v7a/7cf47097c39cf1afcee8__mypyc.cpython-314-x86_64-linux-gnu.so
+[1m[90m[DEBUG][39m[0m:   	./bootstrap_builds/sdl2/obj/local/arm64-v8a/libSDL2_ttf.so
+[1m[90m[DEBUG][39m[0m:   	./bootstrap_builds/sdl2/obj/local/arm64-v8a/libmain.so
+[1m[90m[DEBUG][39m[0m:   	./bootstrap_builds/sdl2/obj/local/arm64-v8a/libSDL2.so
+[1m[90m[DEBUG][39m[0m:   	./bootstrap_builds/sdl2/obj/local/arm64-v8a/libSDL2_image.so
+[1m[90m[DEBUG][39m[0m:   	./bootstrap_builds/sdl2/obj/local/arm64-v8a/libSDL2_mixer.so
+[1m[90m[DEBUG][39m[0m:   	./bootstrap_builds/sdl2/obj/local/armeabi-v7a/libSDL2_ttf.so
+[1m[90m[DEBUG][39m[0m:   	./bootstrap_builds/sdl2/obj/local/armeabi-v7a/libmain.so
+[1m[90m[DEBUG][39m[0m:   	./bootstrap_builds/sdl2/obj/local/armeabi-v7a/libSDL2.so
+[1m[90m[DEBUG][39m[0m:   	./bootstrap_builds/sdl2/obj/local/armeabi-v7a/libSDL2_image.so
+[1m[90m[DEBUG][39m[0m:   	./bootstrap_builds/sdl2/obj/local/armeabi-v7a/libSDL2_mixer.so
+[1m[90m[DEBUG][39m[0m:   	./bootstrap_builds/sdl2/libs/arm64-v8a/libSDL2_ttf.so
+[1m[90m[DEBUG][39m[0m:   	./bootstrap_builds/sdl2/libs/arm64-v8a/libmain.so
+[1m[90m[DEBUG][39m[0m:   	./bootstrap_builds/sdl2/libs/arm64-v8a/libSDL2.so
+[1m[90m[DEBUG][39m[0m:   	./bootstrap_builds/sdl2/libs/arm64-v8a/libSDL2_image.so
+[1m[90m[DEBUG][39m[0m:   	./bootstrap_builds/sdl2/libs/arm64-v8a/libSDL2_mixer.so
+[1m[90m[DEBUG][39m[0m:   	./bootstrap_builds/sdl2/libs/armeabi-v7a/libSDL2_ttf.so
+[1m[90m[DEBUG][39m[0m:   	./bootstrap_builds/sdl2/libs/armeabi-v7a/libmain.so
+[1m[90m[DEBUG][39m[0m:   	./bootstrap_builds/sdl2/libs/armeabi-v7a/libSDL2.so
+[1m[90m[DEBUG][39m[0m:   	./bootstrap_builds/sdl2/libs/armeabi-v7a/libSDL2_image.so
+[1m[90m[DEBUG][39m[0m:   	./bootstrap_builds/sdl2/libs/armeabi-v7a/libSDL2_mixer.so
+[1m[90m[DEBUG][39m[0m:   	./libs_collections/telemagestion/arm64-v8a/libffi.so
+[1m[90m[DEBUG][39m[0m:   	./libs_collections/telemagestion/arm64-v8a/libssl.so
+[1m[90m[DEBUG][39m[0m:   	./libs_collections/telemagestion/arm64-v8a/libcrypto.so
+[1m[90m[DEBUG][39m[0m:   	./libs_collections/telemagestion/arm64-v8a/libpythonbin.so
+[1m[90m[DEBUG][39m[0m:   	./libs_collections/telemagestion/arm64-v8a/libsqlite3.so
+[1m[90m[DEBUG][39m[0m:   	./libs_collections/telemagestion/armeabi-v7a/libffi.so
+[1m[90m[DEBUG][39m[0m:   	./libs_collections/telemagestion/armeabi-v7a/libssl.so
+[1m[90m[DEBUG][39m[0m:   	./libs_collections/telemagestion/armeabi-v7a/libcrypto.so
+[1m[90m[DEBUG][39m[0m:   	./libs_collections/telemagestion/armeabi-v7a/libpythonbin.so
+[1m[90m[DEBUG][39m[0m:   	./libs_collections/telemagestion/armeabi-v7a/libsqlite3.so
 stty: 'standard input': Inappropriate ioctl for device
-[1m[90m[DEBUG][39m[0m:   [90m->[0m running cp -a jnius/src/org /home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/javaclasses/telemagestion[0m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running find . -iname *.so -exec /home/runner/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-strip --strip-unneeded {} ;[0m
+[1m[INFO][0m:    [36m<- directory context /home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build[39m
 [1m[INFO][0m:    [36m<- directory context /home/runner/work/telema-android/telema-android/.buildozer/android/platform/python-for-android[39m
-[1m[INFO][0m:    [1m[32mPostbuilding setuptools for armeabi-v7a[0m[39m
-[1m[INFO][0m:    [1m[32mPostbuilding android for armeabi-v7a[0m[39m
-[1m[INFO][0m:    [1m[32mPostbuilding kivy for armeabi-v7a[0m[39m
-[1m[INFO][0m:    [1m[32m# Installing pure Python modules[0m[39m
 [1m[INFO][0m:    *** PYTHON PACKAGE / PROJECT INSTALL STAGE FOR ARCH: arm64-v8a ***
 stty: 'standard input': Inappropriate ioctl for device
-[1m[90m[DEBUG][39m[0m:   [90m->[0m running pip3 install certifi chardet filetype idna requests six urllib3 --dry-run --break-system-packages --ignore-installed --disable-pip-version-check --only-binary=:all: --report /tmp/tmpuashcc9_ -q --platform=android_24_arm64_v8a --platform=android_24_aarch64 --python-version 3.14.2[0m
+[1m[90m[DEBUG][39m[0m:   [90m->[0m running pip3 install certifi chardet charset_normalizer filetype idna requests six urllib3 --dry-run --break-system-packages --ignore-installed --disable-pip-version-check --only-binary=:all: --report /tmp/tmp9o1l815e -q --platform=android_24_arm64_v8a --platform=android_24_aarch64 --python-version 3.14.2[0m
 [1m[INFO][0m:    Extra resolved pure python dependencies :
 [1m[INFO][0m:     
-[1m[INFO][0m:      [32mcharset-normalizer[37m : [1m3.5.1[0m
 [1m[INFO][0m:     
-[1m[INFO][0m:    The requirements (certifi, chardet, filetype, idna, requests, six, urllib3, https://files.pythonhosted.org/packages/29/cd/2b812ce5e888f1ce69a5350281e58aab07ae64a958ecae8912f30865718e/charset_normalizer-3.5.1-cp314-cp314-android_24_arm64_v8a.whl) don't have recipes, attempting to install them with pip
+[1m[INFO][0m:    The requirements (certifi, chardet, charset_normalizer, filetype, idna, requests, six, urllib3) don't have recipes, attempting to install them with pip
 [1m[INFO][0m:    If this fails, it may mean that the module has compiled components and needs a recipe.
 [1m[INFO][0m:    [36m-> directory context /home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build[39m
 stty: 'standard input': Inappropriate ioctl for device
@@ -274,36 +253,25 @@ stty: 'standard input': Inappropriate ioctl for device
 [1m[INFO][0m:    Upgrade pip to latest version
 stty: 'standard input': Inappropriate ioctl for device
 [1m[90m[DEBUG][39m[0m:   [90m->[0m running bash -c source venv/bin/activate && pip install -U pip[0m
-[1m[90m[DEBUG][39m[0m:   	Requirement already satisfied: pip in ./venv/lib/python3.14/site-packages (25.3)
-[1m[90m[DEBUG][39m[0m:   	Collecting pip
-[1m[90m[DEBUG][39m[0m:   	  Downloading pip-26.2.1-py3-none-any.whl.metadata (4.6 kB)
-[1m[90m[DEBUG][39m[0m:   	Downloading pip-26.2.1-py3-none-any.whl (1.8 MB)
-[1m[90m[DEBUG][39m[0m:   	[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/1.8 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.8/1.8 MB[0m [31m13.7 MB/s[0m  [33m0:00:00[0m
-[1m[90m[DEBUG][39m[0m:   	[?25hInstalling collected packages: pip
-[1m[90m[DEBUG][39m[0m:   	  Attempting uninstall: pip
-[1m[90m[DEBUG][39m[0m:   	    Found existing installation: pip 25.3
-[1m[90m[DEBUG][39m[0m:   	    Uninstalling pip-25.3:
-[1m[90m[DEBUG][39m[0m:   	      Successfully uninstalled pip-25.3
-[1m[90m[DEBUG][39m[0m:   	Successfully installed pip-26.2.1
-[1m[INFO][0m:    Install Cython in case one of the modules needs it to build
-stty: 'standard input': Inappropriate ioctl for device
-[1m[90m[DEBUG][39m[0m:   [90m->[0m running bash -c venv/bin/pip install Cython[0m
-[1m[90m[DEBUG][39m[0m:   	Collecting Cython
-[1m[90m[DEBUG][39m[0m:   	  Downloading cython-3.3.0-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (28 kB)
-[1m[90m[DEBUG][39m[0m:   	Downloading cython-3.3.0-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (3.5 MB)
-[1m[90m[DEBUG][39m[0m:   	[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/3.5 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.5/3.5 MB[0m [31m62.5 MB/s[0m  [33m0:00:00[0m
-[1m[90m[DEBUG][39m[0m:   	[?25hInstalling collected packages: Cython
-[1m[90m[DEBUG][39m[0m:   	Successfully installed Cython-3.3.0
-[1m[90m[DEBUG][39m[0m:   Create directory /home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/recipe/arm64-v8a__ndk_target_24/objects_recipe
-[1m[INFO][0m:    Creating a requirements.txt file for the Python modules
-[1m[INFO][0m:    Installing Python modules with pip
-[1m[INFO][0m:    IF THIS FAILS, THE MODULES MAY NEED A RECIPE. A reason for this is often modules compiling native code that is unaware of Android cross-compilation and does not work without additional changes / workarounds.
-stty: 'standard input': Inappropriate ioctl for device
-[1m[90m[DEBUG][39m[0m:   [90m->[0m running bash -c venv/bin/pip install -v --target '/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/telemagestion/arm64-v8a' --no-deps -r requirements.txt[0m
-[1m[90m[DEBUG][39m[0m:   	Using pip 26.2.1 from /home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv/lib/python3.14/site-packages/pip (python 3.14)
-[1m[90m[DEBUG][39m[0m:   	[31mERROR: charset_normalizer-3.5.1-cp314-cp314-android_24_arm64_v8a.whl is not a supported wheel on this platform.[0m[31m
-[1m[90m[DEBUG][39m[0m:   	[0m
-Exception in thread background thread for pid 96784:
+[1m[90m[DEBUG][39m[0m:   	Traceback (most recent call last):
+[1m[90m[DEBUG][39m[0m:   	  File [35m"/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv/bin/pip"[0m, line [35m5[0m, in [35m<module>[0m
+[1m[90m[DEBUG][39m[0m:   	    from pip._internal.cli.main import main
+[1m[90m[DEBUG][39m[0m:   	  File [35m"/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv/lib/python3.14/site-packages/pip/_internal/cli/main.py"[0m, line [35m11[0m, in [35m<module>[0m
+[1m[90m[DEBUG][39m[0m:   	    from pip._internal.cli.autocompletion import autocomplete
+[1m[90m[DEBUG][39m[0m:   	  File [35m"/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv/lib/python3.14/site-packages/pip/_internal/cli/autocompletion.py"[0m, line [35m12[0m, in [35m<module>[0m
+[1m[90m[DEBUG][39m[0m:   	    from pip._internal.cli.main_parser import create_main_parser
+[1m[90m[DEBUG][39m[0m:   	  File [35m"/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv/lib/python3.14/site-packages/pip/_internal/cli/main_parser.py"[0m, line [35m9[0m, in [35m<module>[0m
+[1m[90m[DEBUG][39m[0m:   	    from pip._internal.build_env import get_runnable_pip
+[1m[90m[DEBUG][39m[0m:   	  File [35m"/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv/lib/python3.14/site-packages/pip/_internal/build_env/__init__.py"[0m, line [35m8[0m, in [35m<module>[0m
+[1m[90m[DEBUG][39m[0m:   	    from pip._internal.build_env.installer import (
+[1m[90m[DEBUG][39m[0m:   	    ...<2 lines>...
+[1m[90m[DEBUG][39m[0m:   	    )
+[1m[90m[DEBUG][39m[0m:   	  File [35m"/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv/lib/python3.14/site-packages/pip/_internal/build_env/installer.py"[0m, line [35m14[0m, in [35m<module>[0m
+[1m[90m[DEBUG][39m[0m:   	    from pip._internal.exceptions import (
+[1m[90m[DEBUG][39m[0m:   	    ...<4 lines>...
+[1m[90m[DEBUG][39m[0m:   	    )
+[1m[90m[DEBUG][39m[0m:   	[1;35mImportError[0m: [35mcannot import name 'BuildDependencyInstallError' from 'pip._internal.exceptions' (/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv/lib/python3.14/site-packages/pip/_internal/exceptions.py)[0m
+Exception in thread background thread for pid 98674:
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
     self.run()
@@ -320,12 +288,28 @@ Traceback (most recent call last):
     raise exc
 sh.ErrorReturnCode_1: 
 
-  RAN: /usr/bin/bash -c 'venv/bin/pip install -v --target '"'"'/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/telemagestion/arm64-v8a'"'"' --no-deps -r requirements.txt'
+  RAN: /usr/bin/bash -c 'source venv/bin/activate && pip install -U pip'
 
   STDOUT:
-Using pip 26.2.1 from /home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv/lib/python3.14/site-packages/pip (python 3.14)
-[31mERROR: charset_normalizer-3.5.1-cp314-cp314-android_24_arm64_v8a.whl is not a supported wheel on this platform.[0m[31m
-[0m
+Traceback (most recent call last):
+  File [35m"/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv/bin/pip"[0m, line [35m5[0m, in [35m<module>[0m
+    from pip._internal.cli.main import main
+  File [35m"/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv/lib/python3.14/site-packages/pip/_internal/cli/main.py"[0m, line [35m11[0m, in [35m<module>[0m
+    from pip._internal.cli.autocompletion import autocomplete
+  File [35m"/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv/lib/python3.14/site-packages/pip/_internal/cli/autocompletion.py"[0m, line [35m12[0m, in [35m<module>[0m
+    from pip._internal.cli.main_parser import create_main_parser
+  File [35m"/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv/lib/python3.14/site-packages/pip/_internal/cli/main_parser.py"[0m, line [35m9[0m, in [35m<module>[0m
+    from pip._internal.build_env import get_runnable_pip
+  File [35m"/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv/lib/python3.14/site-packages/pip/_internal/build_env/__init__.py"[0m, line [35m8[0m, in [35m<module>[0m
+    from pip._internal.build_env.installer import (
+    ...<2 lines>...
+    )
+  File [35m"/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv/lib/python3.14/site-packages/pip/_internal/build_env/installer.py"[0m, line [35m14[0m, in [35m<module>[0m
+    from pip._internal.exceptions import (
+    ...<4 lines>...
+    )
+[1;35mImportError[0m: [35mcannot import name 'BuildDependencyInstallError' from 'pip._internal.exceptions' (/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv/lib/python3.14/site-packages/pip/_internal/exceptions.py)[0m
+
 
   STDERR:
 
@@ -344,7 +328,7 @@ Traceback (most recent call last):
     build_recipes(build_order, python_modules, ctx,
   File "/home/runner/work/telema-android/telema-android/.buildozer/android/platform/python-for-android/pythonforandroid/build.py", line 554, in build_recipes
     run_pymodules_install(
-  File "/home/runner/work/telema-android/telema-android/.buildozer/android/platform/python-for-android/pythonforandroid/build.py", line 927, in run_pymodules_install
+  File "/home/runner/work/telema-android/telema-android/.buildozer/android/platform/python-for-android/pythonforandroid/build.py", line 877, in run_pymodules_install
     shprint(sh.bash, '-c', (
   File "/home/runner/work/telema-android/telema-android/.buildozer/android/platform/python-for-android/pythonforandroid/logger.py", line 174, in shprint
     for line in output:
@@ -356,16 +340,32 @@ Traceback (most recent call last):
     raise exc
 sh.ErrorReturnCode_1: 
 
-  RAN: /usr/bin/bash -c 'venv/bin/pip install -v --target '"'"'/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/telemagestion/arm64-v8a'"'"' --no-deps -r requirements.txt'
+  RAN: /usr/bin/bash -c 'source venv/bin/activate && pip install -U pip'
 
   STDOUT:
-Using pip 26.2.1 from /home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv/lib/python3.14/site-packages/pip (python 3.14)
-[31mERROR: charset_normalizer-3.5.1-cp314-cp314-android_24_arm64_v8a.whl is not a supported wheel on this platform.[0m[31m
-[0m
+Traceback (most recent call last):
+  File [35m"/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv/bin/pip"[0m, line [35m5[0m, in [35m<module>[0m
+    from pip._internal.cli.main import main
+  File [35m"/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv/lib/python3.14/site-packages/pip/_internal/cli/main.py"[0m, line [35m11[0m, in [35m<module>[0m
+    from pip._internal.cli.autocompletion import autocomplete
+  File [35m"/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv/lib/python3.14/site-packages/pip/_internal/cli/autocompletion.py"[0m, line [35m12[0m, in [35m<module>[0m
+    from pip._internal.cli.main_parser import create_main_parser
+  File [35m"/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv/lib/python3.14/site-packages/pip/_internal/cli/main_parser.py"[0m, line [35m9[0m, in [35m<module>[0m
+    from pip._internal.build_env import get_runnable_pip
+  File [35m"/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv/lib/python3.14/site-packages/pip/_internal/build_env/__init__.py"[0m, line [35m8[0m, in [35m<module>[0m
+    from pip._internal.build_env.installer import (
+    ...<2 lines>...
+    )
+  File [35m"/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv/lib/python3.14/site-packages/pip/_internal/build_env/installer.py"[0m, line [35m14[0m, in [35m<module>[0m
+    from pip._internal.exceptions import (
+    ...<4 lines>...
+    )
+[1;35mImportError[0m: [35mcannot import name 'BuildDependencyInstallError' from 'pip._internal.exceptions' (/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv/lib/python3.14/site-packages/pip/_internal/exceptions.py)[0m
+
 
   STDERR:
 
-# Command failed: ['/opt/hostedtoolcache/Python/3.11.16/x64/bin/python', '-m', 'pythonforandroid.toolchain', 'create', '--dist_name=telemagestion', '--bootstrap=sdl2', '--requirements=python3,kivy==2.3.1', '--arch=arm64-v8a', '--arch=armeabi-v7a', '--copy-libs', '--color=always', '--storage-dir=/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a', '--ndk-api=24', '--ignore-setup-py', '--debug']
+# Command failed: ['/opt/hostedtoolcache/Python/3.11.16/x64/bin/python', '-m', 'pythonforandroid.toolchain', 'create', '--dist_name=telemagestion', '--bootstrap=sdl2', '--requirements=python3,kivy==2.3.1,charset_normalizer==3.3.2', '--arch=arm64-v8a', '--arch=armeabi-v7a', '--copy-libs', '--color=always', '--storage-dir=/home/runner/work/telema-android/telema-android/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a', '--ndk-api=24', '--ignore-setup-py', '--debug']
 # ENVIRONMENT:
 #     SHELL = '/bin/bash'
 #     SELENIUM_JAR_PATH = '/usr/share/java/selenium-server.jar'
@@ -374,11 +374,11 @@ Using pip 26.2.1 from /home/runner/work/telema-android/telema-android/.buildozer
 #     JAVA_HOME_11_X64 = '/usr/lib/jvm/temurin-11-jdk-amd64'
 #     JAVA_HOME_25_X64 = '/usr/lib/jvm/temurin-25-jdk-amd64'
 #     PKG_CONFIG_PATH = '/opt/hostedtoolcache/Python/3.11.16/x64/lib/pkgconfig'
-#     GITHUB_PATH = '/home/runner/work/_temp/_runner_file_commands/add_path_e86eb3b8-0860-4ba8-9e12-dae03bb81ca7'
+#     GITHUB_PATH = '/home/runner/work/_temp/_runner_file_commands/add_path_b2429f46-fdfc-471b-ba63-df9fca2475a0'
 #     GITHUB_ACTION = 'build_step'
 #     JAVA_HOME = '/usr/lib/jvm/temurin-11-jdk-amd64'
-#     GITHUB_RUN_NUMBER = '5'
-#     RUNNER_NAME = 'GitHub Actions 1000000004'
+#     GITHUB_RUN_NUMBER = '6'
+#     RUNNER_NAME = 'GitHub Actions 1000000005'
 #     GRADLE_HOME = '/usr/share/gradle-9.7.1'
 #     GITHUB_REPOSITORY_OWNER_ID = '321885471'
 #     ACTIONS_RUNNER_ACTION_ARCHIVE_CACHE = '/opt/actionarchivecache'
@@ -397,13 +397,13 @@ Using pip 26.2.1 from /home/runner/work/telema-android/telema-android/.buildozer
 #     PWD = '/home/runner/work/telema-android/telema-android'
 #     PIPX_BIN_DIR = '/opt/pipx_bin'
 #     LOGNAME = 'runner'
-#     GITHUB_ARTIFACTS_LIST = '/home/runner/work/_temp/_runner_file_commands/artifacts_list_e86eb3b8-0860-4ba8-9e12-dae03bb81ca7'
+#     GITHUB_ARTIFACTS_LIST = '/home/runner/work/_temp/_runner_file_commands/artifacts_list_b2429f46-fdfc-471b-ba63-df9fca2475a0'
 #     GITHUB_REPOSITORY_ID = '1348829583'
 #     GITHUB_ACTIONS = 'true'
 #     USE_BAZEL_FALLBACK_VERSION = 'silent:'
 #     ANDROID_NDK_LATEST_HOME = '/usr/local/lib/android/sdk/ndk/29.0.14206865'
-#     SYSTEMD_EXEC_PID = '1417'
-#     GITHUB_SHA = 'e9b337ffd081ceb0bdf702b8e2bd1589365aa577'
+#     SYSTEMD_EXEC_PID = '1563'
+#     GITHUB_SHA = 'f2d30512dd30b0c3410f071a9ed13df020a3a794'
 #     GITHUB_WORKFLOW_REF = 'balongatullia/telema-android/.github/workflows/build-apk.yml@refs/heads/main'
 #     POWERSHELL_DISTRIBUTION_CHANNEL = 'GitHub-Actions-Linux'
 #     RUNNER_ENVIRONMENT = 'github-hosted'
@@ -415,20 +415,20 @@ Using pip 26.2.1 from /home/runner/work/telema-android/telema-android/.buildozer
 #     GITHUB_API_URL = 'https://api.github.com'
 #     LANG = 'C.UTF-8'
 #     GOROOT_1_25_X64 = '/opt/hostedtoolcache/go/1.25.14/x64'
-#     RUNNER_TRACKING_ID = 'github_04a7e466-121f-4308-959c-cf2a4fd91fa5'
+#     RUNNER_TRACKING_ID = 'github_b85c4989-12f9-4efc-805a-f8884b9c22d3'
 #     RUNNER_ARCH = 'X64'
 #     RUNNER_TEMP = '/home/runner/work/_temp'
-#     GITHUB_STATE = '/home/runner/work/_temp/_runner_file_commands/save_state_e86eb3b8-0860-4ba8-9e12-dae03bb81ca7'
+#     GITHUB_STATE = '/home/runner/work/_temp/_runner_file_commands/save_state_b2429f46-fdfc-471b-ba63-df9fca2475a0'
 #     EDGEWEBDRIVER = '/usr/local/share/edge_driver'
 #     JAVA_HOME_21_X64 = '/usr/lib/jvm/temurin-21-jdk-amd64'
-#     GITHUB_ENV = '/home/runner/work/_temp/_runner_file_commands/set_env_e86eb3b8-0860-4ba8-9e12-dae03bb81ca7'
+#     GITHUB_ENV = '/home/runner/work/_temp/_runner_file_commands/set_env_b2429f46-fdfc-471b-ba63-df9fca2475a0'
 #     GITHUB_EVENT_PATH = '/home/runner/work/_temp/_github_workflow/event.json'
-#     INVOCATION_ID = '7bef879166c34014915c06fdadb753a1'
+#     INVOCATION_ID = '2e79e369eb0042c5be1325e06f3bf96f'
 #     GITHUB_EVENT_NAME = 'push'
-#     GITHUB_RUN_ID = '33212495250'
+#     GITHUB_RUN_ID = '33213980197'
 #     JAVA_HOME_17_X64 = '/usr/lib/jvm/temurin-17-jdk-amd64'
 #     ANDROID_NDK_HOME = '/usr/local/lib/android/sdk/ndk/27.3.13750724'
-#     GITHUB_STEP_SUMMARY = '/home/runner/work/_temp/_runner_file_commands/step_summary_e86eb3b8-0860-4ba8-9e12-dae03bb81ca7'
+#     GITHUB_STEP_SUMMARY = '/home/runner/work/_temp/_runner_file_commands/step_summary_b2429f46-fdfc-471b-ba63-df9fca2475a0'
 #     HOMEBREW_NO_AUTO_UPDATE = '1'
 #     GITHUB_ACTOR = 'balongatullia'
 #     NVM_DIR = '/home/runner/.nvm'
@@ -447,13 +447,13 @@ Using pip 26.2.1 from /home/runner/work/telema-android/telema-android/.buildozer
 #     ANDROID_SDK_ROOT = '/usr/local/lib/android/sdk'
 #     VCPKG_INSTALLATION_ROOT = '/usr/local/share/vcpkg'
 #     GITHUB_ACTOR_ID = '321885471'
-#     ACTIONS_ORCHESTRATION_ID = 'ffea709a-0bf8-4200-b063-12444a81615c.build.__default'
+#     ACTIONS_ORCHESTRATION_ID = '54b91da9-36fb-4c27-8a29-99c82b14c579.build.__default'
 #     RUNNER_TOOL_CACHE = '/opt/hostedtoolcache'
 #     ImageVersion = '20260824.273.3'
 #     Python3_ROOT_DIR = '/opt/hostedtoolcache/Python/3.11.16/x64'
 #     DOTNET_NOLOGO = '1'
-#     GITHUB_ARTIFACTS = '/home/runner/work/_temp/_runner_file_commands/artifacts_e86eb3b8-0860-4ba8-9e12-dae03bb81ca7'
-#     GITHUB_WORKFLOW_SHA = 'e9b337ffd081ceb0bdf702b8e2bd1589365aa577'
+#     GITHUB_ARTIFACTS = '/home/runner/work/_temp/_runner_file_commands/artifacts_b2429f46-fdfc-471b-ba63-df9fca2475a0'
+#     GITHUB_WORKFLOW_SHA = 'f2d30512dd30b0c3410f071a9ed13df020a3a794'
 #     GOROOT_1_24_X64 = '/opt/hostedtoolcache/go/1.24.13/x64'
 #     GITHUB_REF_NAME = 'main'
 #     GITHUB_JOB = 'build'
@@ -463,10 +463,10 @@ Using pip 26.2.1 from /home/runner/work/telema-android/telema-android/.buildozer
 #     GOROOT_1_26_X64 = '/opt/hostedtoolcache/go/1.26.7/x64'
 #     GITHUB_REPOSITORY = 'balongatullia/telema-android'
 #     Python2_ROOT_DIR = '/opt/hostedtoolcache/Python/3.11.16/x64'
-#     ANDROID_NDK_ROOT = '/usr/local/lib/android/sdk/ndk/27.3.13750724'
 #     CHROME_BIN = '/usr/bin/google-chrome'
+#     ANDROID_NDK_ROOT = '/usr/local/lib/android/sdk/ndk/27.3.13750724'
 #     GITHUB_RETENTION_DAYS = '90'
-#     JOURNAL_STREAM = '8:9448'
+#     JOURNAL_STREAM = '8:7811'
 #     RUNNER_WORKSPACE = '/home/runner/work/telema-android'
 #     LEIN_HOME = '/usr/local/lib/lein'
 #     LEIN_JAR = '/usr/local/lib/lein/self-installs/leiningen-2.12.0-standalone.jar'
@@ -484,7 +484,7 @@ Using pip 26.2.1 from /home/runner/work/telema-android/telema-android/.buildozer
 #     ENABLE_RUNNER_TRACING = 'true'
 #     GITHUB_WORKFLOW = 'Build APK Android - Telema'
 #     DEBIAN_FRONTEND = 'noninteractive'
-#     GITHUB_OUTPUT = '/home/runner/work/_temp/_runner_file_commands/set_output_e86eb3b8-0860-4ba8-9e12-dae03bb81ca7'
+#     GITHUB_OUTPUT = '/home/runner/work/_temp/_runner_file_commands/set_output_b2429f46-fdfc-471b-ba63-df9fca2475a0'
 #     AGENT_TOOLSDIRECTORY = '/opt/hostedtoolcache'
 #     _ = '/opt/hostedtoolcache/Python/3.11.16/x64/bin/buildozer'
 #     PACKAGES_PATH = '/home/runner/.buildozer/android/packages'
