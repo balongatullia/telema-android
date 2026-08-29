@@ -49,6 +49,17 @@ jobs:
             autoconf libtool pkg-config zlib1g-dev libncurses5-dev \
             libncursesw5-dev libtinfo5 cmake libffi-dev libssl-dev build-essential
 
+      - name: Fixer JAVA_HOME sur Java 17 (obligatoire pour le plugin Gradle Android)
+        run: |
+          JAVA17_JAVAC=$(update-alternatives --list javac | grep -i '\-17' | head -1)
+          if [ -z "$JAVA17_JAVAC" ]; then
+            JAVA17_JAVAC=$(find /usr/lib/jvm -maxdepth 1 -iname '*17*' -exec find {} -name javac \; | head -1)
+          fi
+          JAVA17_HOME=$(dirname "$(dirname "$JAVA17_JAVAC")")
+          echo "Java 17 trouve dans : $JAVA17_HOME"
+          echo "JAVA_HOME=$JAVA17_HOME" >> "$GITHUB_ENV"
+          echo "$JAVA17_HOME/bin" >> "$GITHUB_PATH"
+
       - name: Installer Buildozer et Cython
         run: |
           pip install --upgrade pip
