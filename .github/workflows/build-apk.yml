@@ -69,8 +69,8 @@ jobs:
         id: build_step
         continue-on-error: true
         run: |
-          set -o pipefail
           yes | buildozer android debug 2>&1 | tee /tmp/build_output.log
+          exit ${PIPESTATUS[1]}
 
       - name: Sauver le journal d'erreur dans le depot (si echec)
         if: steps.build_step.outcome == 'failure'
