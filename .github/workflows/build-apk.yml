@@ -86,6 +86,17 @@ jobs:
         if: steps.build_step.outcome == 'failure'
         run: exit 1
 
+      - name: Deposer l'APK directement dans le depot (contournement telechargement)
+        if: steps.build_step.outcome == 'success'
+        run: |
+          mkdir -p apk_output
+          cp bin/*.apk apk_output/TelemaGestion.apk
+          git config user.email "bot@telema.local"
+          git config user.name "Telema Build Bot"
+          git add -f apk_output/TelemaGestion.apk
+          git commit -m "APK compile automatiquement [skip ci]" || true
+          git push
+
       - name: Publier l'APK genere
         uses: actions/upload-artifact@v4
         with:
