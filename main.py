@@ -237,6 +237,36 @@ class TelemaApp(App):
     paroisse_id = ObjectProperty(None, allownone=True)
 
     def build(self):
+        """Point d'entree protege : si quoi que ce soit plante au demarrage,
+        on affiche le message d'erreur exact directement a l'ecran, au lieu
+        de laisser l'application se fermer brutalement sans explication."""
+        try:
+            return self._build_normal()
+        except Exception:
+            import traceback
+            return self._ecran_erreur_demarrage(traceback.format_exc())
+
+    def _ecran_erreur_demarrage(self, texte_erreur):
+        Window.clearcolor = (0.98, 0.96, 0.96, 1)
+        racine = BoxLayout(orientation="vertical", padding=dp(16), spacing=dp(10))
+        racine.add_widget(Label(
+            text="Un probleme est survenu au demarrage de l'application.\n"
+                 "Faites une capture d'ecran de ce message et transmettez-la.",
+            bold=True, size_hint_y=None, height=dp(70), color=(0.6, 0.15, 0.1, 1),
+            halign="center", valign="middle", text_size=(Window.width - dp(32), dp(70)),
+        ))
+        scroll = ScrollView()
+        etiquette = Label(
+            text=texte_erreur, size_hint_y=None, halign="left", valign="top",
+            font_size="11sp", color=(0.15, 0.15, 0.15, 1),
+        )
+        etiquette.bind(texture_size=lambda inst, val: setattr(etiquette, "height", val[1] + dp(20)))
+        etiquette.bind(width=lambda inst, val: etiquette.setter("text_size")(etiquette, (val, None)))
+        scroll.add_widget(etiquette)
+        racine.add_widget(scroll)
+        return racine
+
+    def _build_normal(self):
         self.title = "TELEMA - Gestion ECD"
         Window.clearcolor = FOND
         data_dir = os.path.join(self.user_data_dir, "telema_data")
@@ -1221,4 +1251,24 @@ KV = """
 Builder.load_string(KV)
 
 if __name__ == "__main__":
-    TelemaApp().run()
+    try:
+        TelemaApp().run()
+    except Exception:
+        # Filet de securite ultime : si meme le lancement de l'app plante
+        # avant que build() ne puisse intervenir, on affiche quand meme
+        # l'erreur a l'ecran avec une mini-application Kivy independante.
+        import traceback
+        from kivy.uix.label import Label as _Label
+        from kivy.app import App as _App
+
+        texte_erreur = traceback.format_exc()
+
+        class _AppSecours(_App):
+            def build(self):
+                return _Label(
+                    text="Erreur au lancement :\n\n" + texte_erreur,
+                    halign="left", valign="top", font_size="11sp",
+                    text_size=(360, None),
+                )
+
+        _AppSecours().run()
